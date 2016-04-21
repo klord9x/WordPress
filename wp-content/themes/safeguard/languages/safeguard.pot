@@ -1,0 +1,2438 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Safeguard\n"
+"POT-Creation-Date: 2016-02-23 16:12+0300\n"
+"PO-Revision-Date: 2016-02-23 16:12+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:15
+msgid ""
+"The page you are looking for seems to be missing.Go back, or return to "
+"yourcompany.com to choose a new direction.Please report any broken links to "
+"our team."
+msgstr ""
+
+#: 404.php:18
+msgid "Return to previous page"
+msgstr ""
+
+#: comments.php:11
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:25 library/functions/widgets.php:133
+msgid "Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:47
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:50
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:77
+msgid "You must be"
+msgstr ""
+
+#: comments.php:79
+msgid "logged in"
+msgstr ""
+
+#: comments.php:81
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:89
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:90
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:91
+msgid "Log out"
+msgstr ""
+
+#: comments.php:102 library/functions/widgets.php:279
+#: pixinit/vc_shortcode.php:613 pixinit/vc_shortcode.php:1051
+#: pixinit/vc_shortcode.php:1131 pixtheme-custom/pixtheme-custom.php:550
+msgid "Name"
+msgstr ""
+
+#: comments.php:107 library/functions/widgets.php:281
+msgid "Email"
+msgstr ""
+
+#: comments.php:119
+msgid "Your Message *"
+msgstr ""
+
+#: comments.php:119
+msgid "Comment"
+msgstr ""
+
+#: comments.php:125
+msgid "Send Message."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:333
+#: pixinit/tgm_plugin.php:150
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:334
+#: pixinit/tgm_plugin.php:151
+msgid "Install Plugins"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:335
+#: pixinit/tgm_plugin.php:152
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:336
+#: pixinit/tgm_plugin.php:153
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:338
+#: pixinit/tgm_plugin.php:154
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:343
+#: pixinit/tgm_plugin.php:155
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:353
+#: pixinit/tgm_plugin.php:160
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:368
+#: pixinit/tgm_plugin.php:157
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:373
+#: pixinit/tgm_plugin.php:158
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:383
+#: pixinit/tgm_plugin.php:162
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:393
+#: pixinit/tgm_plugin.php:163
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:397
+#: pixinit/tgm_plugin.php:164
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:399
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3027
+#: pixinit/tgm_plugin.php:165
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:400
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2830
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:826
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3436
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:933
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:933
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:936
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:936
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:1114
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2826
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:1879
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2165
+msgid "Required"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2168
+msgid "Recommended"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2184
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2187
+msgid "External Source"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2190
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2207
+msgid "Not Installed"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2211
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2213
+msgid "Active"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2219
+msgid "Required Update not Available"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2222
+msgid "Requires Update"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2225
+msgid "Update recommended"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2233
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2278
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2281
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2284
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2287
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2369
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2377
+msgid "Installed version:"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2385
+msgid "Minimum required version:"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2397
+msgid "Available version:"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2420
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2434
+msgid "Plugin"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2435
+msgid "Source"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2436
+msgid "Type"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2440
+msgid "Version"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2441
+msgid "Status"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2489
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2493
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2498
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2568
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2601
+msgid "Install"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2607
+msgid "Update"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2610
+msgid "Activate"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2641
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2679
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2786
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:2812
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3026
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3360
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3363
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3368
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3374
+msgid "Show Details"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3368
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3374
+msgid "Hide Details"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3369
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3373
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3375
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/admin/admin-panel/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/admin/custom-fields.php:5
+msgid "Safeguard - Sidebar Options"
+msgstr ""
+
+#: library/admin/custom-fields.php:27
+msgid "Sidebar type"
+msgstr ""
+
+#: library/admin/custom-fields.php:30
+msgid "Full width"
+msgstr ""
+
+#: library/admin/custom-fields.php:31
+msgid "Right Sidebar"
+msgstr ""
+
+#: library/admin/custom-fields.php:32
+msgid "Left Sidebar"
+msgstr ""
+
+#: library/admin/custom-fields.php:36
+msgid "Sidebar content"
+msgstr ""
+
+#: library/admin/custom-fields.php:44
+msgid "WP Default Sidebar"
+msgstr ""
+
+#: library/functions/common.php:15
+msgid "<i class=\"fa fa-home fa-lg\"></i>"
+msgstr ""
+
+#: library/functions/common.php:16
+#, php-format
+msgid "Archive \"%s\""
+msgstr ""
+
+#: library/functions/common.php:17
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: library/functions/common.php:18
+#, php-format
+msgid "Posts with tag \"%s\""
+msgstr ""
+
+#: library/functions/common.php:19
+#, php-format
+msgid "%s posts"
+msgstr ""
+
+#: library/functions/common.php:20
+msgid "Error 404"
+msgstr ""
+
+#: library/functions/common.php:21
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/functions/common.php:22
+#, php-format
+msgid "Comments page %s"
+msgstr ""
+
+#: library/functions/common.php:115
+msgid "No Categories"
+msgstr ""
+
+#: library/functions/filters.php:17
+msgid "Additional Title"
+msgstr ""
+
+#: library/functions/filters.php:24
+msgid "Text"
+msgstr ""
+
+#: library/functions/filters.php:37
+msgid "Portfolio Option"
+msgstr ""
+
+#: library/functions/filters.php:44 pixinit/vc_shortcode.php:619
+#: pixinit/vc_shortcode.php:1057 pixinit/vc_shortcode.php:1137
+msgid "Position"
+msgstr ""
+
+#: library/functions/filters.php:50
+msgid "Phone"
+msgstr ""
+
+#: library/functions/filters.php:56
+msgid "E-mail"
+msgstr ""
+
+#: library/functions/filters.php:62 pixtheme-custom/pixtheme-custom.php:834
+msgid "Facebook"
+msgstr ""
+
+#: library/functions/filters.php:68 pixtheme-custom/pixtheme-custom.php:835
+msgid "Twitter"
+msgstr ""
+
+#: library/functions/filters.php:74
+msgid "Google+"
+msgstr ""
+
+#: library/functions/filters.php:80
+msgid "LinkedIn"
+msgstr ""
+
+#: library/functions/filters.php:92
+msgid "Post Format Options"
+msgstr ""
+
+#: library/functions/filters.php:99
+msgid "Post Standared:"
+msgstr ""
+
+#: library/functions/filters.php:106
+msgid "Post Gallery:"
+msgstr ""
+
+#: library/functions/filters.php:112
+msgid "Quote Source:"
+msgstr ""
+
+#: library/functions/filters.php:119
+msgid "Quote Content:"
+msgstr ""
+
+#: library/functions/filters.php:126
+msgid "Video"
+msgstr ""
+
+#: library/functions/functions.php:170
+msgid "BLOG"
+msgstr ""
+
+#: library/functions/helper.php:27
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/functions/helper.php:35
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/functions/helper.php:36
+msgid "(Edit)"
+msgstr ""
+
+#: library/functions/widgets.php:19
+msgid "Display images from flickr"
+msgstr ""
+
+#: library/functions/widgets.php:28
+msgid "Safeguard - Flickr images"
+msgstr ""
+
+#: library/functions/widgets.php:72
+msgid "Title:"
+msgstr ""
+
+#: library/functions/widgets.php:77
+msgid "Flickr ID:"
+msgstr ""
+
+#: library/functions/widgets.php:82
+msgid "Number of photos:"
+msgstr ""
+
+#: library/functions/widgets.php:108
+msgid "Retrieve and display popular/latest posts/latest comments."
+msgstr ""
+
+#: library/functions/widgets.php:112
+msgid "Safeguard Popular/Latest posts/Last comments"
+msgstr ""
+
+#: library/functions/widgets.php:131
+msgid "Popular"
+msgstr ""
+
+#: library/functions/widgets.php:132
+msgid "Recent"
+msgstr ""
+
+#: library/functions/widgets.php:188
+msgid "on "
+msgstr ""
+
+#: library/functions/widgets.php:203
+msgid "on"
+msgstr ""
+
+#: library/functions/widgets.php:234 library/functions/widgets.php:420
+#: library/functions/widgets.php:502 pixinit/vc_shortcode.php:307
+#: pixinit/vc_shortcode.php:316 pixinit/vc_shortcode.php:373
+#: pixinit/vc_shortcode.php:427 pixinit/vc_shortcode.php:485
+#: pixinit/vc_shortcode.php:866 pixinit/vc_shortcode.php:940
+#: pixinit/vc_shortcode.php:1246 pixinit/vc_shortcode.php:1294
+#: pixinit/vc_shortcode.php:1505 pixinit/vc_shortcode.php:1549
+#: pixtheme-custom/pixtheme-custom.php:739
+msgid "Title"
+msgstr ""
+
+#: library/functions/widgets.php:239 library/functions/widgets.php:441
+msgid "Number of Posts to show"
+msgstr ""
+
+#: library/functions/widgets.php:244
+msgid "Category (Leave Blank to show from all categories)"
+msgstr ""
+
+#: library/functions/widgets.php:261
+msgid "Contact widget"
+msgstr ""
+
+#: library/functions/widgets.php:262
+msgid "Safeguard - Contact Form"
+msgstr ""
+
+#: library/functions/widgets.php:267
+msgid "Contact Us"
+msgstr ""
+
+#: library/functions/widgets.php:269
+msgid "Thank you, e-mail sent."
+msgstr ""
+
+#: library/functions/widgets.php:284
+msgid "Message"
+msgstr ""
+
+#: library/functions/widgets.php:289
+msgid "Send"
+msgstr ""
+
+#: library/functions/widgets.php:325
+msgid "Title:<br />"
+msgstr ""
+
+#: library/functions/widgets.php:329
+msgid "Email Address:<br />"
+msgstr ""
+
+#: library/functions/widgets.php:333
+msgid "Success Message:<br />"
+msgstr ""
+
+#: library/functions/widgets.php:354
+msgid "Display latest works (Portoflio)"
+msgstr ""
+
+#: library/functions/widgets.php:358
+msgid "Safeguard - Latest Works"
+msgstr ""
+
+#: library/functions/widgets.php:425
+msgid "Show only featured posts"
+msgstr ""
+
+#: library/functions/widgets.php:433
+msgid "Use carousel"
+msgstr ""
+
+#: library/functions/widgets.php:460
+msgid "Display Portfolio Categories"
+msgstr ""
+
+#: library/functions/widgets.php:464
+msgid "Safeguard - Portfolio Categories"
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:44 library/functions/wp-pagenavi.php:46
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:45 library/functions/wp-pagenavi.php:47
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:48 library/functions/wp-pagenavi.php:49
+#: library/functions/wp-pagenavi.php:187 library/functions/wp-pagenavi.php:188
+msgid "..."
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:99
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:185 pixinit/vc_shortcode.php:995
+#: single-post.php:51 single.php:69
+#: template-parts/blog-template/blog-template.php:36
+msgid "1"
+msgstr ""
+
+#: library/functions/wp-pagenavi.php:186
+msgid "<span class=\"icon-chevron-left\"></span>"
+msgstr ""
+
+#: library/includes/the_breadcrumb.php:16
+msgid "Home"
+msgstr ""
+
+#: loop.php:13
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:15
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: pixinit/customize.php:16
+msgid "Global Colors"
+msgstr ""
+
+#: pixinit/customize.php:41
+msgid "First Color"
+msgstr ""
+
+#: pixinit/customize.php:46
+msgid "Second Color"
+msgstr ""
+
+#: pixinit/customize.php:51
+msgid "Third Color"
+msgstr ""
+
+#: pixinit/customize.php:60
+msgid "Global Font"
+msgstr ""
+
+#: pixinit/customize.php:79 pixinit/customize.php:114
+msgid "Font Family"
+msgstr ""
+
+#: pixinit/customize.php:85 pixinit/customize.php:120
+msgid "Font Weight"
+msgstr ""
+
+#: pixinit/customize.php:95
+msgid "Title Font"
+msgstr ""
+
+#: pixinit/fonts.php:9
+msgctxt "Exo font: on or off"
+msgid "on"
+msgstr ""
+
+#: pixinit/fonts.php:15
+msgctxt "Ubuntu"
+msgid "on"
+msgstr ""
+
+#: pixinit/fonts.php:17
+msgctxt "Source Sans Pro"
+msgid "on"
+msgstr ""
+
+#: pixinit/setup.php:50
+msgid "Primary Navigation"
+msgstr ""
+
+#: pixinit/setup.php:51
+msgid "Top Navigation"
+msgstr ""
+
+#: pixinit/setup.php:52
+msgid "Footer Navigation"
+msgstr ""
+
+#: pixinit/tgm_plugin.php:156
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixinit/tgm_plugin.php:159
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixinit/tgm_plugin.php:161
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: pixinit/tgm_plugin.php:166
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:83 pixinit/vc_shortcode.php:345
+#: pixinit/vc_shortcode.php:401 pixinit/vc_shortcode.php:514
+#: pixinit/vc_shortcode.php:904 pixinit/vc_shortcode.php:1590
+msgid "Content"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:94
+msgid "CSS Animation"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:98
+msgid "No"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:99
+msgid "bounce"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:100
+msgid "flash"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:101
+msgid "pulse"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:102
+msgid "rubberBand"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:103
+msgid "shake"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:104
+msgid "swing"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:105
+msgid "tada"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:106
+msgid "wobble"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:107
+msgid "jello"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:109
+msgid "bounceIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:110
+msgid "bounceInDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:111
+msgid "bounceInLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:112
+msgid "bounceInRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:113
+msgid "bounceInUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:114
+msgid "bounceOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:115
+msgid "bounceOutDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:116
+msgid "bounceOutLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:117
+msgid "bounceOutRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:118
+msgid "bounceOutUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:120
+msgid "fadeIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:121
+msgid "fadeInDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:122
+msgid "fadeInDownBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:123
+msgid "fadeInLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:124
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:125
+msgid "fadeInRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:126
+msgid "fadeInRightBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:127
+msgid "fadeInUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:128
+msgid "fadeInUpBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:129
+msgid "fadeOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:130
+msgid "fadeOutDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:131
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:132
+msgid "fadeOutLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:133
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:134
+msgid "fadeOutRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:135
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:136
+msgid "fadeOutUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:137
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:139
+msgid "flip"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:140
+msgid "flipInX"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:141
+msgid "flipInY"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:142
+msgid "flipOutX"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:143
+msgid "flipOutY"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:145
+msgid "lightSpeedIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:146
+msgid "lightSpeedOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:148
+msgid "rotateIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:149
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:150
+msgid "rotateInDownRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:151
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:152
+msgid "rotateInUpRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:153
+msgid "rotateOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:154
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:155
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:156
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:157
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:159
+msgid "slideInUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:160
+msgid "slideInDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:161
+msgid "slideInLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:162
+msgid "slideInRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:163
+msgid "slideOutUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:164
+msgid "slideOutDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:165
+msgid "slideOutLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:166
+msgid "slideOutRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:168
+msgid "zoomIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:169
+msgid "zoomInDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:170
+msgid "zoomInLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:171
+msgid "zoomInRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:172
+msgid "zoomInUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:173
+msgid "zoomOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:174
+msgid "zoomOutDown"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:175
+msgid "zoomOutLeft"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:176
+msgid "zoomOutRight"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:177
+msgid "zoomOutUp"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:179
+msgid "hinge"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:180
+msgid "rollIn"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:181
+msgid "rollOut"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:184
+msgid ""
+"Select type of animation if you want this element to be animated when it "
+"enters into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:192
+msgid "Flaticon"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:195
+msgid "Font Awesome"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:198
+msgid "Elegant"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:201
+msgid "Icomoon"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:204
+msgid "Simple"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:207
+msgid "Custom 1"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:210
+msgid "Custom 2"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:213
+msgid "Custom 3"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:216
+msgid "Custom 4"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:219
+msgid "Custom 5"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:222
+msgid "VC Font Awesome"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:225
+msgid "VC Open Iconic"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:228
+msgid "VC Typicons"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:231
+msgid "VC Entypo"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:234
+msgid "VC Linecons"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:239
+msgid "Icon library"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:243
+msgid "Select icon library."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:253 pixinit/vc_shortcode.php:1252
+msgid "Icon"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:265
+msgid "Select icon from library."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:276
+msgid "Padding"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:279
+msgid "Both"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:280
+msgid "Top"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:281
+msgid "Bottom"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:282
+msgid "No Padding"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:284
+msgid "Top, bottom, both"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:285 pixinit/vc_shortcode.php:293
+msgid "Row Options"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:292
+msgid "Text Color"
+msgstr ""
+
+#. Author of the plugin/theme
+#: pixinit/vc_shortcode.php:310 pixinit/vc_shortcode.php:367
+#: pixinit/vc_shortcode.php:455 pixinit/vc_shortcode.php:471
+#: pixinit/vc_shortcode.php:536 pixinit/vc_shortcode.php:603
+#: pixinit/vc_shortcode.php:720 pixinit/vc_shortcode.php:762
+#: pixinit/vc_shortcode.php:850 pixinit/vc_shortcode.php:930
+#: pixinit/vc_shortcode.php:986 pixinit/vc_shortcode.php:1099
+#: pixinit/vc_shortcode.php:1233 pixinit/vc_shortcode.php:1290
+#: pixinit/vc_shortcode.php:1350 pixinit/vc_shortcode.php:1388
+#: pixinit/vc_shortcode.php:1452 pixinit/vc_shortcode.php:1472
+#: pixinit/vc_shortcode.php:1499 pixinit/vc_shortcode.php:1606
+msgid "Templines"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:318 pixinit/vc_shortcode.php:375
+msgid "I am Title"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:319 pixinit/vc_shortcode.php:376
+msgid "Title param."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:324 pixinit/vc_shortcode.php:380
+msgid "Title Position"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:327 pixinit/vc_shortcode.php:383
+#: pixinit/vc_shortcode.php:1563
+msgid "Center"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:328 pixinit/vc_shortcode.php:384
+#: pixinit/vc_shortcode.php:1561
+msgid "Left"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:329 pixinit/vc_shortcode.php:385
+#: pixinit/vc_shortcode.php:1562
+msgid "Right"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:331 pixinit/vc_shortcode.php:387
+msgid "Center, left or right"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:335 pixinit/vc_shortcode.php:391
+msgid "Title Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:347 pixinit/vc_shortcode.php:403
+#: pixinit/vc_shortcode.php:702 pixinit/vc_shortcode.php:906
+#: pixinit/vc_shortcode.php:964 pixinit/vc_shortcode.php:1075
+#: pixinit/vc_shortcode.php:1209 pixinit/vc_shortcode.php:1592
+msgid "<p>I am test text block. Click edit button to change this text.</p>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:348 pixinit/vc_shortcode.php:404
+#: pixinit/vc_shortcode.php:907 pixinit/vc_shortcode.php:1593
+msgid "Enter your content."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:364
+msgid "Title Box"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:429
+msgid "Project"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:430
+msgid "Title."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:436
+msgid "Amount"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:438
+msgid "999"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:439
+msgid "Amount."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:452
+msgid "Amount Box"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:468
+msgid "Banner"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:476
+msgid "Banner Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:478 pixinit/vc_shortcode.php:543
+msgid "#549404"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:479
+msgid "Banner background color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:487
+msgid "WE PROVIDE FASTEST & AFFORDABLE CARGO SERVICES"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:488
+msgid "Banner Title"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:494 pixinit/vc_shortcode.php:895
+#: pixinit/vc_shortcode.php:1301 pixinit/vc_shortcode.php:1580
+msgid "Button Text"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:496
+msgid "REQUEST A FREE QUOTE"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:497
+msgid "Button Title"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:503 pixinit/vc_shortcode.php:886
+#: pixinit/vc_shortcode.php:953 pixinit/vc_shortcode.php:1258
+#: pixinit/vc_shortcode.php:1571
+msgid "Link"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:505 pixinit/vc_shortcode.php:888
+#: pixinit/vc_shortcode.php:1573
+msgid "https:/templines.com"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:506 pixinit/vc_shortcode.php:889
+#: pixinit/vc_shortcode.php:1574
+msgid "Button link"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:517
+msgid "Banner Text"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:533
+msgid "3 Colors Text Section"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:541
+msgid "Left Block Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:544 pixinit/vc_shortcode.php:559
+#: pixinit/vc_shortcode.php:575 pixinit/vc_shortcode.php:1267
+msgid "Select bg color."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:548
+msgid "Left Text Block"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:556
+msgid "Right Block Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:558
+msgid "#a91605"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:563
+msgid "Right Text Block"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:572
+msgid "Center Block Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:574
+msgid "#333333"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:581
+msgid "Center Text Block"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:600
+msgid "Team Member Box"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:607 pixinit/vc_shortcode.php:814
+#: pixinit/vc_shortcode.php:877 pixinit/vc_shortcode.php:934
+#: pixinit/vc_shortcode.php:1125
+msgid "Image"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:609 pixinit/vc_shortcode.php:936
+#: pixinit/vc_shortcode.php:1127
+msgid "Select image."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:615 pixinit/vc_shortcode.php:1133
+msgid "Team member name."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:621 pixinit/vc_shortcode.php:1139
+msgid "Member position."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:625 pixinit/vc_shortcode.php:1156
+msgid "Social Link 1"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:627 pixinit/vc_shortcode.php:1158
+msgid "https://www.facebook.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:631 pixinit/vc_shortcode.php:1162
+msgid "Social Network Icon 1"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:633
+msgid ""
+"Add icon fa-facebook <a href=\"//fortawesome.github.io/Font-Awesome/icons/\" "
+"target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:637 pixinit/vc_shortcode.php:1168
+msgid "Social Link 2"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:639 pixinit/vc_shortcode.php:1170
+msgid "https://twitter.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:643 pixinit/vc_shortcode.php:1174
+msgid "Social Network Icon 2"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:645
+msgid ""
+"Add icon fa-twitter <a href=\"//fortawesome.github.io/Font-Awesome/icons/\" "
+"target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:649 pixinit/vc_shortcode.php:1180
+msgid "Social Link 3"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:651 pixinit/vc_shortcode.php:1194
+msgid "https://plus.google.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:655 pixinit/vc_shortcode.php:1186
+msgid "Social Network Icon 3"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:657
+msgid ""
+"Add icon fa-google-plus <a href=\"//fortawesome.github.io/Font-Awesome/icons/"
+"\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:661 pixinit/vc_shortcode.php:1192
+msgid "Social Link 4"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:663
+msgid "//www.w3.org/TR/html5/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:667 pixinit/vc_shortcode.php:1198
+msgid "Social Network Icon 4"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:669
+msgid ""
+"Add icon fa-html5 <a href=\"//fortawesome.github.io/Font-Awesome/icons/\" "
+"target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:673
+msgid "Social Link 5"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:675 pixinit/vc_shortcode.php:687
+msgid "https://github.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:679
+msgid "Social Network Icon 5"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:681 pixinit/vc_shortcode.php:693
+msgid ""
+"Add icon fa-github <a href=\"//fortawesome.github.io/Font-Awesome/icons/\" "
+"target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:685
+msgid "Social Link 6"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:691
+msgid "Social Network Icon 6"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:700 pixinit/vc_shortcode.php:962
+#: pixinit/vc_shortcode.php:1207
+msgid "Info"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:703 pixinit/vc_shortcode.php:965
+#: pixinit/vc_shortcode.php:1210
+msgid "Enter information."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:717
+msgid "Images Carousel"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:724
+msgid "Images"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:727
+msgid "Select images from media library."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:731
+msgid "Image size"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:734
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use \"thumbnail\" size. If used slides per "
+"view, this will be used to define carousel wrapper size."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:738 pixinit/vc_shortcode.php:782
+#: pixinit/vc_shortcode.php:1022
+msgid "Auto Play"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:741 pixinit/vc_shortcode.php:785
+#: pixinit/vc_shortcode.php:1025
+msgid "Enter autoplay speed in milliseconds. 0 is turn off autoplay."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:756
+msgid "Brands Section"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:766
+msgid "Brands per page"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:768
+msgid "Select number of columns. Default 4."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:772 pixinit/vc_shortcode.php:1002
+msgid "Carousel"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:775 pixinit/vc_shortcode.php:1005
+msgid "Enable"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:776 pixinit/vc_shortcode.php:1006
+msgid "Disable"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:778 pixinit/vc_shortcode.php:1008
+msgid "On/off carousel"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:806
+msgid "Brand"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:817 pixinit/vc_shortcode.php:880
+msgid "Select image from media library."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:823
+msgid "url"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:825
+msgid "https://wordpress.com"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:844
+msgid "Tabs"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:858
+msgid "Tab"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:868
+msgid "Tab title."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:872
+msgid "Tab ID"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:898
+msgid "Leave empty to hide the button."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:927
+msgid "Service Box"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:942
+msgid "Title info."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:946 pixinit/vc_shortcode.php:1425
+msgid "Button text"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:948
+msgid "Read More"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:949
+msgid "Button info text."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:955
+msgid "Info link."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:980
+msgid "Reviews"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:992
+msgid "Reviews per page"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:996
+msgid "2"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:998
+msgid "Select number of columns."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1012 pixinit/vc_shortcode.php:1315
+msgid "Color scheme"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1015 pixinit/vc_shortcode.php:1318
+msgid "Light"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1016 pixinit/vc_shortcode.php:1319
+msgid "Dark"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1034
+msgid "Review"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1053
+msgid "Person name."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1059
+msgid "Text under the name."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1073
+msgid "Review Text"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1076
+msgid "Enter text."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1093
+msgid "Team Members"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1103
+msgid "Team Dysplay Style"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1106
+msgid "3 Items with 'SEND MAIL' button"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1107
+msgid "4 Items with social buttons only"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1117
+msgid "Team Member"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1143
+msgid "Mail Button Text"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1146
+msgid "Leave empty to hide button."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1150
+msgid "E-mail address"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1152
+msgid "Member E-mail."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1164
+msgid ""
+"Add icon social_facebook_circle <a href=\"//fontawesome.github.io/Font-"
+"Awesome/icons/\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1176
+msgid ""
+"Add icon social_twitter_circle <a href=\"//fontawesome.github.io/Font-"
+"Awesome/icons/\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1182
+msgid "https://www.pinterest.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1188
+msgid ""
+"Add icon social_pinterest_circle <a href=\"//fontawesome.github.io/Font-"
+"Awesome/icons/\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1200
+msgid ""
+"Add icon social_googleplus_circle <a href=\"//fontawesome.github.io/Font-"
+"Awesome/icons/\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1227
+msgid "Social Buttons"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1238
+msgid "Social Button"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1248
+msgid "Social title."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1254
+msgid ""
+"Add social icon fa-facebook <a href=\"//fortawesome.github.io/Font-Awesome/"
+"icons/\" target=\"_blank\">See all icons</a>"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1260
+msgid "Social link."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1265
+msgid "Color"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1287
+msgid "News Block"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1296
+msgid "Latest News"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1303
+msgid "READ ALL NEWS"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1304
+msgid "Leave empty to hide bytton."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1308
+msgid "Link For All News"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1327
+msgid "Title Content"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1329
+msgid "READ our latest blog news"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1330
+msgid "Enter your title content."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1347 pixinit/vc_shortcode.php:1354
+#: pixtheme-custom/pixtheme-custom.php:501
+msgid "Departments"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1357
+msgid "Select departments to show"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1362
+msgid "Items Per Row"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1385
+msgid "Services"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1392
+msgid "Use Template With"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1395
+msgid "With Department Menu"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1396
+msgid "Isotop Filter"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1397
+msgid "Without Menu And Filter"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1403
+msgid "Departmens"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1406
+msgid "Select departmens to show their services."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1414
+msgid "Items Count"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1416
+msgid "Select number services to show."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1427 taxonomy-services_category.php:50
+#: template-parts/blog-template/blog-template.php:44
+msgid "READ MORE"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1449
+msgid "Mailchimp Box"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1469
+msgid "Contact Form 7"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1476
+msgid "Contact Form"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1479
+msgid "Select contact form to show"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1496
+msgid "Flickr"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1514
+msgid "Flickr ID"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1517
+msgid "Get your flickr ID from: //idgettr.com/"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1523
+msgid "Number of photos"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1526
+msgid "Default 9."
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1551
+msgid "I am title"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1552
+msgid "Add Title "
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1558
+msgid "Icon Position"
+msgstr ""
+
+#: pixinit/vc_shortcode.php:1603
+msgid "Icon Box"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:28
+msgctxt "post type general name"
+msgid "Static Blocks"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:29
+msgctxt "post type singular name"
+msgid "Static Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:30
+msgctxt "admin menu"
+msgid "Static Blocks"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:31
+msgctxt "add new on admin bar"
+msgid "Static Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:32
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:33
+msgid "Add New Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:34
+msgid "New Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:35
+msgid "Edit Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:36
+msgid "View Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:37
+msgid "All Blocks"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:38
+msgid "Search Block"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:39
+msgid "Parent Block:"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:40
+msgid "No blocks found."
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:41
+msgid "No blocks found in Trash."
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:88
+msgid "Static Block Description"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:92
+msgid "Select the block to display at the bottom of the product page"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:221
+#: pixtheme-custom/pixtheme-custom.php:493
+msgid "Edit Work"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:229
+#: pixtheme-custom/pixtheme-custom.php:722
+msgid "Categories"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:230
+#: pixtheme-custom/pixtheme-custom.php:723
+#: pixtheme-custom/pixtheme-custom.php:740
+msgid "Category"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:395
+#: pixtheme-custom/pixtheme-custom.php:427
+msgid "Department Title"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:401
+#: pixtheme-custom/pixtheme-custom.php:431
+msgid "Department Additional Title"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:407
+#: pixtheme-custom/pixtheme-custom.php:435
+msgid "Department Icon"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:410
+#: pixtheme-custom/pixtheme-custom.php:438
+msgid "Icon class"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:414
+#: pixtheme-custom/pixtheme-custom.php:441
+msgid "Department Link"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:417
+#: pixtheme-custom/pixtheme-custom.php:444
+#: pixtheme-custom/pixtheme-custom.php:554
+msgid "Url"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:502
+msgid "Department"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:551
+msgid "Description"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:552
+msgid "Slug"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:553
+msgid "Count"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:687
+#: pixtheme-custom/pixtheme-custom.php:706
+msgid "Events"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:688
+msgid "Event"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:689
+msgid "Add New Event"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:690
+msgid "All Events"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:691
+msgid "Edit Event"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:692
+msgid "New Event"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:693
+msgid "View Event"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:694
+msgid "No Events Found"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:695
+msgid "No Events Found in Trash"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:708
+msgid "A list of upcoming events"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:738
+msgid "Image Preview"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:741
+msgid "Start Date"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:742
+msgid "End Date"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:743
+msgid "Venue"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:836
+msgid "Google +"
+msgstr ""
+
+#: pixtheme-custom/pixtheme-custom.php:837
+msgid "Pinterest"
+msgstr ""
+
+#: search.php:27
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:6 template-parts/header/header_type_1.php:121
+#: template-parts/header/header_type_1.php:123
+msgid "Search"
+msgstr ""
+
+#: single-post.php:31 template-parts/blog-template/blog-template.php:17
+msgid "BY"
+msgstr ""
+
+#: single-post.php:51 single.php:69
+#: template-parts/blog-template/blog-template.php:36
+msgid "0"
+msgstr ""
+
+#: single-post.php:51 single.php:69
+#: template-parts/blog-template/blog-template.php:36
+msgid "%"
+msgstr ""
+
+#: single-post.php:51 template-parts/blog-template/blog-template.php:36
+msgid " Comment(s)"
+msgstr ""
+
+#: single.php:39
+msgid "By"
+msgstr ""
+
+#: single.php:45
+msgid "In: "
+msgstr ""
+
+#: single.php:56
+msgid "Tags: "
+msgstr ""
+
+#: single.php:69
+msgid "Comments: "
+msgstr ""
+
+#: single.php:100
+msgid "About Author"
+msgstr ""
+
+#: single.php:130
+msgid "author posts  "
+msgstr ""
+
+#: template-parts/header/color_switcher.php:8
+msgid "Theme Customization"
+msgstr ""
+
+#: template-parts/header/header_title.php:20
+msgid "Safeguard Posts"
+msgstr ""
+
+#: template-parts/header/header_type_2.php:106
+#: template-parts/header/header_type_3.php:69
+msgid "Search..."
+msgstr ""
+
+#: template-parts/header/header_type_3.php:47
+msgid "Cart:"
+msgstr ""
+
+#: template-parts/header/header_type_3.php:49
+msgid "ITEMS"
+msgstr ""
+
+#: vc_templates/block_posts.php:65 vc_templates/block_posts.php:88
+msgid "BY "
+msgstr ""
+
+#: vc_templates/section_services.php:20
+#: vc_templates/section_services_cat.php:19
+msgid ""
+"No departments selected. To fix this, please login to your WP Admin area and "
+"set the departments you want to show by editing this shortcode and setting "
+"one or more departments in the multi checkbox field \"Departments\"."
+msgstr ""
+
+#: vc_templates/section_services.php:56
+msgid "All services"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Safeguard"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "templines.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Safeguard Template that is suitable for security & guarding services agency "
+"and business. It also includes inner pages designs required for building the "
+"full security or guarding agency website."
+msgstr ""

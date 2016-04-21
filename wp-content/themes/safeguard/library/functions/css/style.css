@@ -1,0 +1,44 @@
+/*
+Theme Name: Safeguard
+Author: Templines
+Text Domain: safeguard
+Version: 1.0
+License: See on zip package
+License URI: See on zip package
+Description:  Safeguard Template that is suitable for security & guarding services agency and business. It also includes inner pages designs required for building the full security or guarding agency website.
+Theme URI:  templines.com
+Author URI: templines.com
+Tags: orange, black, white
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+.safeguard_pix_event_entry{
+    margin-bottom: 21px;
+}
+ 
+.safeguard_pix_event_entry h4{
+    margin-bottom: 3px;
+}
+ 
+.safeguard_pix_event_entry h4 a{
+    text-decoration: none;
+    color: inherit;
+}
+ 
+.safeguard_pix_event_entry .event_venue{
+    font-size: 0.9em;
+    color: #777777;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.safeguard_pix_event_entry p{
+    margin-bottom: 3px !important;
+}
+ 
+.safeguard_pix_event_entry .safeguard_pix_event_date{
+    font-size: 0.9em;
+    color: #777777;
+}

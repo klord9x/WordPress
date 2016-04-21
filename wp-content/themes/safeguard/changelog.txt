@@ -1,0 +1,36 @@
+
+
+version 1.2.1  (08.04.2016) (Alexey)
+
+Font Icons Loader bug fixed
+	
+	safeguard/library/includes/plugins/font-icons-loader.zip
+	
+	
+	
+version 1.2  (06.04.2016)
+
+mobile menu fix
+
+	css/responsive.css
+
+
+
+version 1.1  (05.04.2016)
+
+add woocommerce support
+	
+	safeguard/functions.php
+	safeguard/pixinit/loadscripts.php
+	safeguard/pixinit/woo.php
+	safeguard/woocommerce/*
+	safeguard/woocommerce.php
+	safeguard/template-parts/header/header_bgimage.php
+	
+    
+    
+
+	
+
+	
+
