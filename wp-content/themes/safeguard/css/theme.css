@@ -19,7 +19,7 @@
 
 /* Global */
 body {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -39,7 +39,7 @@ html .vc_row.vc_row-no-padding .wpb_column {
     padding-right: 15px;*/
 }
 html .vc_btn3 {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -114,7 +114,7 @@ img.full-width {
 }
 
 .hgroup h2, hgroup h2 {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #888;
@@ -193,7 +193,7 @@ img.full-width {
 }
 .main-menu {
 	position: relative;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	height: 65px;
 	line-height: 62px;
@@ -500,7 +500,7 @@ html .our-services div > a:hover::after {
 	position: relative;
 	text-indent: 15px;
 	position: relative;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	list-style: none;
 	border-bottom: 1px solid #eee;
 	padding: 20px 30px 20px 0;
@@ -508,7 +508,7 @@ html .our-services div > a:hover::after {
 .why-us li p {
 	margin-top: 15px;
 	font-size: 14px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display: none;
 }
 .why-us li span {
@@ -520,7 +520,7 @@ html .our-services div > a:hover::after {
 	height: 25px;
 	line-height: 25px;
 	text-align: center;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	position: absolute;
 	right: 5px;
 }
@@ -591,7 +591,7 @@ html .our-services div > a:hover::after {
 	border: 1px solid;
 	border-bottom: 3px solid;
 	padding: 35px 5px 35px 100px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .stats span:first-child {
 	text-align: center;
@@ -630,7 +630,7 @@ html .our-services div > a:hover::after {
 	margin-bottom: 30px;
 }
 .stats span.percent {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display: block;
 	float: left;
 	font-size: 36px;
@@ -958,7 +958,7 @@ display: inline-block;
 }
 .info-texts {
 	position: relative;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .info-texts p {
 	position: relative;
@@ -1062,7 +1062,7 @@ display: inline-block;
 .quote-form input[type=submit] {
 	background-color: #a91605;
 	color: #fff;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1150,7 +1150,7 @@ display: inline-block;
 	padding: 40px 0 30px 2px;
 }
 .team .user-info h4, .team .user-info small {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .team .user-info p {
 	margin-top: 20px;
@@ -1295,7 +1295,7 @@ ul.blog-cats > li > a:hover {
 	margin-right: 15px;
 }
 .recent-posts div a {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 .recent-posts div a:hover {
@@ -1470,7 +1470,7 @@ nav.pagination a + a {
 }
 .comments > div > span.author {
 	font-weight: 700;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-right: 35px;
 }
 .comments > div > span.date {
@@ -1492,7 +1492,7 @@ nav.pagination a + a {
 	text-transform: uppercase;
 	padding: 0 15px;
 	font-size: 10px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .comments > div > a.reply:after {
 	right: -1px;
@@ -1568,7 +1568,7 @@ nav.pagination a + a {
 .rev_slider_wrapper h1 {
 	display: inline-block;
 	font-size: 26px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin: 0px;
 	padding-top: 0px;
@@ -1976,7 +1976,7 @@ footer, footer a, footer .copy {
 	text-transform: uppercase;
 	padding: 0 15px;
 	font-size: 10px;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .comment .comment-reply .btn a {
 	color: #363636;
@@ -2252,7 +2252,7 @@ footer .vc_icon_element.vc_icon_element-outer .vc_icon_element-inner {
 }
 input[type="submit"] {
 	background-color: #549404;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	position: relative;
 	font-size: 12px;

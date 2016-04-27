@@ -239,7 +239,7 @@ aside .icon-calendar {
 	text-transform: none;
 	font-size: 13px;
 	font-weight: normal;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .block_content .media-body p {
 	color: #777 !important;
@@ -261,7 +261,7 @@ aside .icon-calendar {
 	font-size: 11px;
 }
 .media-tab-comment .media-body a {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 }
@@ -369,7 +369,7 @@ aside .icon-calendar {
 	font-size: 19px;
 }
 .vc_tta-title-text {
-   font-family: 'Exo', sans-serif !important;
+   font-family: 'Open Sans', sans-serif !important;
     list-style: none;
     text-transform: none;
     font-weight: 800;
@@ -479,7 +479,7 @@ html blockquote:before {
 	margin: 20px 0;
 }
 .rtd h1, .rtd h2, .rtd h3, .rtd h4, .rtd h5, .rtd h6 {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 }
