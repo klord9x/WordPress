@@ -41,6 +41,10 @@ function safeguard_pix_loadscripts(){
             wp_enqueue_style('safeguard-color-scheme', get_template_directory_uri() . '/assets/switcher/css/'.safeguard_pix_get_option('safeguard_pix_color_scheme','color1').'.css');
         }
 
+        /* textillate Text CSS*/
+        wp_enqueue_style('animate', get_template_directory_uri() . '/css/animate.css');
+
+
 
 		// jQuery
 		wp_enqueue_script('jquery-ui', get_template_directory_uri() . '/js/jquery-ui.min.js', array('jquery') , '3.3', false);
@@ -103,6 +107,11 @@ function safeguard_pix_loadscripts(){
 		wp_enqueue_script('placeholder', get_template_directory_uri() . '/js/jquery.placeholder.min.js', array() , '1.1', true);
 		wp_enqueue_script('smooth-scroll', get_template_directory_uri() . '/js/jquery.smooth-scroll.js', array() , '1.1', true);
 		wp_enqueue_script('safeguard-theme', get_template_directory_uri() . '/js/theme.js', array() , '1.1', true);
+
+		//Jquery for Text animation:
+		wp_enqueue_script('fittext', get_template_directory_uri() . '/js/jquery.fittext.js', array() , '1.1', true);
+		wp_enqueue_script('lettering', get_template_directory_uri() . '/js/jquery.lettering.js', array() , '1.1', true);
+		wp_enqueue_script('textillate', get_template_directory_uri() . '/js/jquery.textillate.js', array() , '1.1', true);
 		
 				
 	}

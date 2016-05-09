@@ -73,27 +73,55 @@
           <?php endif?>
           </a> 
 	                    </div>
-	                    <div class="  col-sm-9 col-md-9 col-lg-9">
-	                        <div class="text-right header-padding">
-		                    <?php if (safeguard_pix_get_option('safeguard_pix_section_show','1')):?>
-								<div class="h-block">
-									<span><?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_title_left')); ?></span>
-									<?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_left')); ?>
-								</div>
-								<div class="h-block">
-									<span><?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_title_middle')); ?></span>
-									<?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_middle')); ?>
-								</div>
-								<div class="h-block">
-									<span><?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_title_right')); ?></span>
-									<?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_section_right')); ?>
-								</div>
-							<?php endif; ?>
-	                            <?php if( safeguard_pix_get_option('safeguard_pix_header_btntxt','') != '') : ?>
-									<a class="btn btn-success" href="<?php echo esc_url(safeguard_pix_get_option('safeguard_pix_header_btnlink',''))?>"><?php echo wp_kses_post(safeguard_pix_get_option('safeguard_pix_header_btntxt', ''))?></a>
-		                     	<?php endif; ?>
-	                        </div>
+
+	                    <!-- colum text effect -->
+	                    <div class="  col-sm-9 col-md-9 col-lg-6">
+	                    <div class="text-center header-padding">
+	                    	<!-- <div class="jumbotron">
+						        <div class="container"> -->
+						            <h1 class="glow in tlt">THĂNG LONG SEPRE.24</h1>
+						            <p class="tlt" data-in-effect="bounceInDown">
+						                An toàn của bạn, trọng trách của chúng tôi.
+						            </p>
+						        <!-- </div>
+						    </div> -->
+						    </div>
 	                    </div>
+
+	                    <!-- Script -->
+	                    <script type="text/javascript">
+	                    	jQuery(function() {
+	                    		jQuery('h1.glow.tlt')
+						            .fitText(0.5, {
+						                maxFontSize: 40
+						            })
+						            .textillate({ loop: true,
+						                    in : {
+						                        effect: 'flipInY'
+						                    },
+						                    out: {
+						                        effect: 'rotateInDownRight'
+						                    }
+
+						            });
+
+						        jQuery('p.tlt')
+						            .fitText(3.2, {
+						                maxFontSize: 18
+						            })
+						            .textillate({
+						                initialDelay: 1000,
+						                in : {
+						                    delay: 3,
+						                    shuffle: true
+						                }
+						            });
+
+						        setTimeout(function() {
+						            jQuery('h1.glow').removeClass('in');
+						        }, 2000);
+	                    	});
+	                    </script>
 	                </div>
 	        </div>
 	        </header>
