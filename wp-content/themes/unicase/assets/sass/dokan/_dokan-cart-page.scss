@@ -1,0 +1,40 @@
+.dokan-theme-unicase {
+	.woocommerce {
+		.cart_totals {
+			.shop_table {
+				border: none;
+				border-bottom: 1px solid #ddd;
+
+				tbody {
+					tr {
+						td {
+							background-color: #f5f5f5;
+							border-bottom: none;
+							padding: 4px 32px 4px 20px;
+						}
+
+						&:first-child {
+							th,
+							td{
+								padding-top: 30px;
+								padding-bottom: 4px;
+							}
+						}
+
+						&:last-child {
+							th,td {
+								 padding-bottom: 25px;
+							}
+						}
+					}
+				}
+			}
+			
+		}
+	}
+
+    .woocommerce .shop_table tbody tr td .variation dt, 
+    .woocommerce .shop_table tbody tr td .variation dd {
+        width: 30%;
+    }
+}
