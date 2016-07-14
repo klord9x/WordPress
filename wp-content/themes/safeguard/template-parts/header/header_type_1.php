@@ -79,9 +79,12 @@
 	                    <div class="text-center header-padding">
 	                    	<!-- <div class="jumbotron">
 						        <div class="container"> -->
-						            <h1 class="glow in tlt">THĂNG LONG SEPRE.24</h1>
+						            <h1 class="glow in tlt">THĂNG LONG SEPRE 24</h1>
 						            <p class="tlt" data-in-effect="bounceInDown">
-						                An toàn của bạn, trọng trách của chúng tôi.
+						                Công ty Bảo vệ tiêu chuẩn Nhật Bản - từ 1995
+						            </p>
+						            <p class="hotline" data-in-effect="zoomIn">
+						                Hotline: 0989561786
 						            </p>
 						        <!-- </div>
 						    </div> -->
@@ -108,6 +111,20 @@
 						        jQuery('p.tlt')
 						            .fitText(3.2, {
 						                maxFontSize: 18
+						            })
+						            .textillate({ loop: true,
+							                initialDelay: 1000,
+							                in : {
+						                        effect: 'fadeInLeftBig'
+						                    },
+						                    out: {
+						                        effect: 'flash'
+						                    }
+						            });
+
+						        jQuery('p.hotline')
+						            .fitText(3.2, {
+						                maxFontSize: 24
 						            })
 						            .textillate({
 						                initialDelay: 1000,
