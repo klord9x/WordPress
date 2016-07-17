@@ -991,3 +991,67 @@ ol.children {
 .article-list .articles > li {
   margin: 20px 0 50px;
 }
+
+/**Custom woocommerce shop page**/
+
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+  float:right;
+}
+
+.woocommerce ul.products li.product .onsale {
+    top: 10px;
+    right: 10px;
+    margin: 0;
+}
+
+.woocommerce span.onsale {
+    padding: 0;
+    text-align: right;
+    line-height: inherit;
+    margin:0;
+    background-color: transparent;
+    color: #77a464;
+    font-size: 1.4rem;
+}
+
+.woocommerce ul.products li.product h3 {
+  float: left;
+}
+
+.woocommerce ul.products li.product .price {
+    float: right;
+}
+
+.woocommerce ul.products li.product .price del {
+    display: none;
+}
+
+.woocommerce ul.products li.product .button {
+    display: block;
+    clear: both;
+    background-color: white;
+    border: 1px #ccc solid;
+    margin-top: 10px;
+    font-weight: normal;
+    color:#777;
+    float: left;
+    width: 100%;
+    text-align:center;
+}
+
+.woocommerce a.added_to_cart {
+    padding-top: .5em;
+    white-space: nowrap;
+    display: inline-block;
+    border: 1px #ccc solid;
+    position: absolute;
+    padding: 5px 10px 6px;
+    z-index: 100;
+    background-color: #77a464;
+    border-radius: 4px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
