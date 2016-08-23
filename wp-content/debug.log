@@ -1,0 +1,17 @@
+[21-Aug-2016 14:06:10 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:10:40 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:11:01 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:15:31 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:16:01 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:16:03 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:16:07 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:18:18 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:21:40 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:22:56 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /var/www/workspace/project_wp2/wp-content/themes/wootree/functions.php on line 29
+[21-Aug-2016 14:31:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wpt_cutom_billing_fields' not found or invalid function name in /var/www/workspace/project_wp2/wp-includes/plugin.php on line 235
+[21-Aug-2016 14:31:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/workspace/project_wp2/wp-content/plugins/woocommerce/templates/checkout/form-billing.php on line 39
+[21-Aug-2016 14:31:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wpt_cutom_billing_fields' not found or invalid function name in /var/www/workspace/project_wp2/wp-includes/plugin.php on line 235
+[21-Aug-2016 15:18:02 UTC] PHP Notice:  Undefined index: woocommerce_checkout_before_order_review in /var/www/workspace/project_wp2/wp-content/themes/wootree/woocommerce/checkout/form-checkout.php on line 60
+[21-Aug-2016 15:18:36 UTC] PHP Notice:  Undefined index: woocommerce_checkout_after_order_review in /var/www/workspace/project_wp2/wp-content/themes/wootree/woocommerce/checkout/form-checkout.php on line 66
+[23-Aug-2016 14:43:32 UTC] PHP Fatal error:  Call to undefined function thachpham_menu() in /var/www/workspace/project_wp2/wp-content/themes/wootree/header.php on line 38
+[23-Aug-2016 14:54:10 UTC] PHP Warning:  Illegal offset type in isset or empty in /var/www/workspace/project_wp2/wp-includes/plugin.php on line 358

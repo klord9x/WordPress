@@ -27,15 +27,16 @@ get_header( 'shop' ); ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-			<section class="row">
-			  <div class="small-12 columns text-center">
-			    <div class="leader">
+			<div id="columns">
+			    <!-- Center -->
+			    <div id="center_column" class="center_column">
+			        <?php include(locate_template('common/breadcrumb.php')); ?>
+			        <div class="rte">
 
-				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+						<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
+					</div>
 				</div>
-			  </div>
-			</section>
 
 		<?php endif; ?>
 

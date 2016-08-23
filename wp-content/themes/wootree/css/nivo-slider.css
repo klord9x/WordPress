@@ -1,0 +1,201 @@
+.slider-wrapper {
+margin:0 auto;
+position:relative;
+width:1000px;
+height:350px
+}
+
+.nivoSlider {
+/*
+-moz-box-shadow:0 1px 5px 0 #4a4a4a;
+-webkit-box-shadow:0 1px 5px 0 #4a4a4a;
+box-shadow:0 1px 5px 0 #4a4a4a;
+*/
+background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+
+height:auto;
+margin-bottom:10px;
+overflow:hidden;
+position:relative;
+width:100%;
+z-index:10;
+}
+
+.nivoSlider img {
+display:none;
+left:0;
+max-width:none;
+position:absolute;
+top:0;
+}
+
+.nivo-main-image {
+display:block!important;
+position:relative!important;
+width:100%!important;
+}
+
+.nivoSlider a.nivo-imageLink {
+border:0;
+display:none;
+height:100%;
+left:0;
+margin:0;
+padding:0;
+position:absolute;
+top:0;
+width:100%;
+z-index:6;
+}
+
+.nivo-slice {
+display:block;
+height:100%;
+position:absolute;
+top:0;
+z-index:5;
+}
+
+.nivo-box {
+display:block;
+overflow:hidden;
+position:absolute;
+z-index:5;
+}
+
+.nivo-box img {
+display:block;
+}
+
+.nivo-caption {
+/*
+-moz-box-sizing:border-box;
+-moz-opacity:0.8;
+-webkit-box-sizing:border-box;
+*/
+background:#000;
+bottom:0;
+box-sizing:border-box;
+color:#fff;
+display:none;
+filter:alpha(opacity=8);
+font-family:Helvetica, Arial, sans-serif;
+left:0;
+opacity:0.8;
+overflow:hidden;
+padding:5px 10px;
+position:absolute;
+width:100%;
+z-index:8;
+}
+
+.nivo-caption p {
+margin:0;
+padding:5px;
+}
+
+.nivo-caption a {
+border-bottom:1px dotted #fff;
+color:#fff;
+display:inline!important;
+}
+
+.nivo-html-caption {
+display:none;
+}
+
+.nivo-directionNav a {
+/*
+-moz-transition:all 200ms ease-in-out;
+-o-transition:all 200ms ease-in-out;
+-webkit-transition:all 200ms ease-in-out;
+*/
+background:url(../images/arrows.png) no-repeat;
+border:0;
+cursor:pointer;
+display:block;
+height:30px;
+opacity:0;
+position:absolute;
+text-indent:-9999px;
+top:45%;
+transition:all 200ms ease-in-out;
+width:30px;
+z-index:9;
+}
+
+.nivo-prevNav {
+left:0;
+}
+
+.nivo-nextNav {
+right:0;
+}
+
+.nivo-controlNav {
+bottom:2px;
+padding:0;
+position:absolute;
+right:5px;
+text-align:center;
+z-index:1000;
+}
+
+.nivo-controlNav a {
+background:url(../images/numberbg.png) no-repeat scroll 0 0 transparent;
+border:0 none;
+cursor:pointer;
+display:block;
+float:left;
+font-weight:700;
+height:21px;
+line-height:20px;
+margin-right:5px;
+vertical-align:top;
+width:21px;
+}
+
+.nivo-controlNav a.active {
+background:url(../images/number_activebg.png) no-repeat scroll 0 0 transparent;
+color:#FFF;
+font-weight:700;
+}
+
+.nivoSlider a {
+border:0;
+display:block;
+}
+
+:hover .nivo-directionNav a {
+opacity:1;
+}
+
+a.nivo-nextNav {
+background-position:-30px 0;
+right:15px;
+}
+
+a.nivo-prevNav {
+left:15px;
+}
+
+.nivo-caption a:hover {
+color:#fff;
+}
+
+.nivo-controlNav.nivo-thumbs-enabled {
+width:100%;
+}
+
+.nivo-controlNav.nivo-thumbs-enabled a {
+background:none;
+height:auto;
+margin-bottom:5px;
+width:auto;
+}
+
+.nivo-controlNav.nivo-thumbs-enabled img {
+display:block;
+height:auto;
+width:120px;
+}
