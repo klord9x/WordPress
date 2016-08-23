@@ -8,6 +8,38 @@ add_theme_support( 'woocommerce' );
 // TODO Custom Woocommerce.
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
+remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
+
+//Disable the default stylesheet
+//add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+add_action( 'woocommerce_before_single_product_summary', 'comments_template', 30);
+add_action( 'wpt_footer', 'wpt_footer_cart_link' );
+
+
+function wpt_cutom_billing_fields ($fields = array()) {
+
+	unset($fields['billing_company']);
+	// echo "<pre>";
+	// var_export($fields);
+	// echo "</pre>";
+
+	return $fields;
+}
+add_filter( 'woocommerce_billing_fields', 'wpt_cutom_billing_fields');
+
+function wpt_footer_cart_link() {
+	global $woocommerce;
+
+	if ( ( sizeof( $woocommerce->cart->cart_contents ) > 0 ) && ( !is_cart() && !is_checkout() ) ) :
+		echo '<a class="btn alt" href="' . $woocommerce->cart->get_cart_url() . '" title="' . __( 'Cart' ) . '">' . __( 'Cart' ) . '</a>';
+
+		echo '<a class="btn" href="' . $woocommerce->cart->get_checkout_url() . '" title="' . __( 'Checkout' ) . '">' . __( 'Checkout' ) . '</a>';
+	endif;	
+}
 
 function wpt_excerpt_length( $length ) {
 	return 16;
