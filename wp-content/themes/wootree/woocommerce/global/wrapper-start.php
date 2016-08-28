@@ -21,4 +21,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<section class="row no-max pad">
+<!-- <section class="row no-max pad"> -->
+<div id="columns">

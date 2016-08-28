@@ -38,13 +38,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<section class="two-column row no-max pad">
-	  	<div class="small-12 columns">
-	    	<div class="row">
+			<!-- Center -->
+		    <div id="center_column" class="center_column">
+		    	<div class="breadcrumb">
+    				<div class="breadcrumb_inner">
+						<?php 
+							/* Add single title*/
+							do_action('wpt_add_breadcrumb');
+						?>
+					</div>
+				</div>
 
-	    		<!-- Primary Column -->
-		      	<div class="small-12 medium-7 medium-offset-1 medium-push-4 columns">
-		        	<div class="primary">
+				<div id="primary_block" class="clearfix">
+					<?php 
+						/* Add single title*/
+						do_action('wpt_single_title');
+					?>
+					<div id="pb-right-column">
 
 						<?php
 							/**
@@ -57,11 +67,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 						?>			
 
 					</div>
-				</div>
+
+					<div id="pb-left-column">
+			
 	
 				<!-- Secondary Column -->
-				<div class="small-12 medium-4 medium-pull-8 columns">
-					<div class="secondary">
+				<!-- <div class="small-12 medium-4 medium-pull-8 columns">
+					<div class="secondary"> -->
 						<?php
 							/**
 							 * woocommerce_single_product_summary hook.
@@ -76,7 +88,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 							 */
 							do_action( 'woocommerce_single_product_summary' );
 						?>
+					</div> 
+					<!-- /End left -->
+				</div>
 
+				<div id="more_info_block" class="clear">
 						<?php
 							/**
 							 * woocommerce_after_single_product_summary hook.
@@ -90,13 +106,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 						<meta itemprop="url" content="<?php the_permalink(); ?>" />
 
-					</div>
+					<!-- </div> -->
 				</div>
+			</div>
+		<!-- /Center -->
+			<?php 
+				/* Add right column*/
+				do_action('wpt_right_column');
+			?>
 			<!-- </div>  -->
 			<!-- end row -->
-		</div>
-	</section>
+		<!-- </div>
+	</section> -->
 
-</div><!-- #product-<?php the_ID(); ?> -->
+<!-- </div> -->
+<!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

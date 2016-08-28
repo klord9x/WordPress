@@ -27,16 +27,16 @@ get_header( 'shop' ); ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-			<div id="columns">
+			<!-- <div id="columns"> -->
 			    <!-- Center -->
 			    <div id="center_column" class="center_column">
-			        <?php include(locate_template('common/breadcrumb.php')); ?>
+			        <?php //include(locate_template('common/breadcrumb.php')); ?>
 			        <div class="rte">
 
 						<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
 
 					</div>
-				</div>
+				<!-- </div> -->
 
 		<?php endif; ?>
 
@@ -104,7 +104,12 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
+		//TODO remove sidebar
 		do_action( 'woocommerce_sidebar' );
+		/* Add right column*/
+		do_action('wpt_right_column');
 	?>
+	<!-- </div> -->
+	<!-- /Center -->
 
 <?php get_footer( 'shop' ); ?>

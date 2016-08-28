@@ -31,7 +31,8 @@ $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 if ( ! empty( $tabs ) ) : ?>
 
 	<div class="woocommerce-tabs wc-tabs-wrapper">
-		<ul class="tabs wc-tabs">
+		<ul class="tabs wc-tabs ">
+		<!-- <ul id="more_info_tabs" class="idTabs idTabsShort"> -->
 			<?php foreach ( $tabs as $key => $tab ) : ?>
 				<li class="<?php echo esc_attr( $key ); ?>_tab">
 					<a href="#tab-<?php echo esc_attr( $key ); ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', esc_html( $tab['title'] ), $key ); ?></a>
@@ -40,6 +41,7 @@ if ( ! empty( $tabs ) ) : ?>
 		</ul>
 		<?php foreach ( $tabs as $key => $tab ) : ?>
 			<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--<?php echo esc_attr( $key ); ?> panel entry-content wc-tab" id="tab-<?php echo esc_attr( $key ); ?>">
+			<!-- <div id="more_info_sheets" class="tabs_content"> -->
 				<?php call_user_func( $tab['callback'], $key, $tab ); ?>
 			</div>
 		<?php endforeach; ?>

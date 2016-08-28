@@ -382,8 +382,7 @@ function refreshProductImages(id_product_attribute)
 }
 
 //To do after loading HTML
-$(document).ready(function()
-{
+jQuery(document).ready(function($) {
 	//init the serialScroll for thumbs
 	$('#thumbs_list').serialScroll({
 		items:'li:visible',

@@ -34,6 +34,10 @@
                                     </li>
                                 </ul>
                             </div>
+
+                            <!-- Menu -->
+                            <?php wpt_get_menu('header_links'); ?>
+                            <!-- /Menu -->
                             <div class="tmbanner1">
                                 <a href="" title=""><img src="<?php echo  get_template_directory_uri().'/images/choco_img/logo/logo_2.png'; ?>" alt="" title=""></a>
                             </div>

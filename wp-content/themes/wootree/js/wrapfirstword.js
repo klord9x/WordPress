@@ -1,5 +1,4 @@
-$(document).ready(function()
-    {
+jQuery(document).ready(function($) {
         $('.wrapfirstword').each(function() {
             var h = $(this).html();
             var index = h.indexOf(' ');

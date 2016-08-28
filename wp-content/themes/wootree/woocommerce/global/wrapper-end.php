@@ -12,4 +12,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-</section>
+<!-- </section> -->
+</div>
