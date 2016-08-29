@@ -45,6 +45,17 @@ add_filter('loop_shop_columns', 'loop_columns');
 
 add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
 
+if( !function_exists( 'unicase_display_mini_cart' ) ) {
+	/**
+	 * Mini Cart Display
+	 * @since   1.0.0
+	 * @return  void
+	 */
+	function unicase_display_mini_cart() {
+		wc_get_template( 'common/unicase_mini_cart.php' );
+	}
+}
+
 function register_my_menus() {
   register_nav_menus(
     array(
@@ -170,15 +181,15 @@ function wpt_theme_js() {
 	// wp_enqueue_script( 'foundation_js', get_template_directory_uri() . '/js/foundation.min.js', array('jquery'), '', true );
 	// wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery', 'foundation_js'), '', true );		
 	// wp_enqueue_script( 'product_js', get_template_directory_uri() . '/js/product.js', '', '', true );		
-	// wp_enqueue_script( 'ajax-cart_js', get_template_directory_uri() . '/js/ajax-cart.js', '', '', true );
+	wp_enqueue_script( 'ajax-cart_js', get_template_directory_uri() . '/js/ajax-cart.js', '', '', true );
 	// wp_register_script('jquery-min', get_template_directory_uri().'/js/jquery-1.4.4.min.js', 'all');
 	// wp_register_script('tool-js', get_template_directory_uri().'/js/tools.js', 'all');
 	wp_enqueue_script('slider_js', get_template_directory_uri().'/js/jquery.nivo.slider.pack.js', '', '', false );		
 	// wp_enqueue_script('idTabs', get_template_directory_uri().'/js/jquery.idTabs.modified.js', '', '', false );
-	wp_enqueue_script('scrollTo', get_template_directory_uri().'/js/jquery.scrollTo-1.4.2-min.js', '', '', false );
-	wp_enqueue_script('serialScroll', get_template_directory_uri().'/js/jquery.serialScroll-1.2.2-min.js', '', '', false );
-	// wp_enqueue_script('product', get_template_directory_uri().'/js/product.js', '', '', false );
-	wp_enqueue_script('wrapfirstword', get_template_directory_uri().'/js/wrapfirstword.js', '', '', false );	
+	// wp_enqueue_script('scrollTo', get_template_directory_uri().'/js/jquery.scrollTo-1.4.2-min.js', '', '', false );
+	// wp_enqueue_script('serialScroll', get_template_directory_uri().'/js/jquery.serialScroll-1.2.2-min.js', '', '', false );
+	// // wp_enqueue_script('product', get_template_directory_uri().'/js/product.js', '', '', false );
+	// wp_enqueue_script('wrapfirstword', get_template_directory_uri().'/js/wrapfirstword.js', '', '', false );	
 
 }
 add_action( 'wp_enqueue_scripts', 'wpt_theme_js' );

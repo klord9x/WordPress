@@ -20,18 +20,24 @@
                         </a>
                         <div id="header_right">
                             <!-- Block user information module HEADER -->
-                            <div id="header_user">
+                            <div id="header_user">                            
                                 <ul>
                                     <li id="header_user_info" style="color: red;">
                                         HOTLINE: (+848)6681 7518 - (+84)906 988 543
                                     </li>
+                                    <!-- mini cart -->
                                     <li id="shopping_cart">
                                         <a title="Your Shopping Cart">GIỎ HÀNG:</a>
-                                        <!-- <span class="ajax_cart_quantity">2</span> -->
-                                        <span class="ajax_cart_product_txt hidden" style="display: none;">product</span>
-                                        <span class="ajax_cart_product_txt_s">(empty)</span>
-                                        <span class="ajax_cart_no_product hidden" style="display: none;">(empty)</span>
+                                        <?php 
+                                            $sl = WC()->cart->get_cart_contents_count();
+                                            if ( $sl ) : ?>
+                                            <span class="ajax_cart_quantity"><?php echo $sl; ?></span>
+                                            <span class="ajax_cart_product_txt" >sản phẩm</span>
+                                        <?php else : ?>
+                                            <span class="ajax_cart_product_txt_s">(empty)</span>
+                                        <?php endif; ?>
                                     </li>
+                                    <!-- /mini cart -->
                                 </ul>
                             </div>
 
