@@ -26,6 +26,9 @@
                                         HOTLINE: (+848)6681 7518 - (+84)906 988 543
                                     </li>
                                     <!-- mini cart -->
+                                    aaaaaaaaaaa
+                                    <span class="cart-count"><?php echo $woocommerce->cart->cart_contents_count; ?></span>
+                                    bbbbb
                                     <li id="shopping_cart">
                                         <a title="Your Shopping Cart">GIỎ HÀNG:</a>
                                         <?php 

@@ -44,7 +44,33 @@ add_action ('wpt_add_breadcrumb', 'woocommerce_breadcrumb');
 add_filter('loop_shop_columns', 'loop_columns');
 
 add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
+// Mini cart
+add_filter('add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
 
+function woocommerce_header_add_to_cart_fragment( $fragments ) {
+  global $woocommerce;
+
+  ob_start();
+
+    $sl = WC()->cart->get_cart_contents_count();
+    if ( $sl ) {
+    	?>
+    	 	<span class="ajax_cart_quantity"><?php echo $sl; ?></span>
+    		<!-- <span class="ajax_cart_product_txt" >sản phẩm</span> -->
+    	<?php
+    } else {
+    	?>
+    	 	<span class="ajax_cart_product_txt_s">(empty)</span>
+    	<?php
+    }
+
+  $fragments['span.ajax_cart_quantity'] = ob_get_clean();
+  //$fragments['span.ajax_cart_product_txt'] = ob_get_clean();
+  // $fragments['span.ajax_cart_product_txt_s'] = ob_get_clean();
+
+  return $fragments;
+
+}
 if( !function_exists( 'unicase_display_mini_cart' ) ) {
 	/**
 	 * Mini Cart Display
@@ -181,7 +207,7 @@ function wpt_theme_js() {
 	// wp_enqueue_script( 'foundation_js', get_template_directory_uri() . '/js/foundation.min.js', array('jquery'), '', true );
 	// wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery', 'foundation_js'), '', true );		
 	// wp_enqueue_script( 'product_js', get_template_directory_uri() . '/js/product.js', '', '', true );		
-	wp_enqueue_script( 'ajax-cart_js', get_template_directory_uri() . '/js/ajax-cart.js', '', '', true );
+	// wp_enqueue_script( 'ajax-cart_js', get_template_directory_uri() . '/js/ajax-cart.js', '', '', true );
 	// wp_register_script('jquery-min', get_template_directory_uri().'/js/jquery-1.4.4.min.js', 'all');
 	// wp_register_script('tool-js', get_template_directory_uri().'/js/tools.js', 'all');
 	wp_enqueue_script('slider_js', get_template_directory_uri().'/js/jquery.nivo.slider.pack.js', '', '', false );		
