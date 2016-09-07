@@ -48,29 +48,28 @@ add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
 add_filter('add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
 
 function woocommerce_header_add_to_cart_fragment( $fragments ) {
-  global $woocommerce;
+	//global $woocommerce;
 
-  ob_start();
+	ob_start();
 
-    $sl = WC()->cart->get_cart_contents_count();
-    if ( $sl ) {
-    	?>
-    	 	<span class="ajax_cart_quantity"><?php echo $sl; ?></span>
-    		<!-- <span class="ajax_cart_product_txt" >sản phẩm</span> -->
-    	<?php
-    } else {
-    	?>
-    	 	<span class="ajax_cart_product_txt_s">(empty)</span>
-    	<?php
-    }
+	echo '<div class="mini-cart-items">';
+	woocommerce_mini_cart();
+	echo '</div>';
+	$sl = WC()->cart->get_cart_contents_count();
+	if ($sl) {
+		$fragments['span.ajax_cart_quantity'] = '<span class="ajax_cart_quantity">' . $sl . esc_html__( ' Sản phẩm(s)', 'wootree' ) . '</span>';
+		$fragments['span.ajax_cart_product_txt_s'] = '<span class="ajax_cart_product_txt_s hidden"></span>';
+	} else {
+		$fragments['span.ajax_cart_quantity'] = '<span class="ajax_cart_quantity hidden"></span>';
+		$fragments['span.ajax_cart_product_txt_s'] = '<span class="ajax_cart_product_txt_s ">(empty)</span>';
+	}
 
-  $fragments['span.ajax_cart_quantity'] = ob_get_clean();
-  //$fragments['span.ajax_cart_product_txt'] = ob_get_clean();
-  // $fragments['span.ajax_cart_product_txt_s'] = ob_get_clean();
+	$fragments['div.mini-cart-items'] = ob_get_clean();
 
-  return $fragments;
+	return $fragments;
 
 }
+
 if( !function_exists( 'unicase_display_mini_cart' ) ) {
 	/**
 	 * Mini Cart Display

@@ -1,6 +1,9 @@
 <!-- Right -->
 <div id="right_column" class="column">
-<?php unicase_display_mini_cart(); ?>
+    <div class="mini-cart-items">
+    <?php woocommerce_mini_cart();
+    ?>
+    </div>
     <script type="text/javascript">
     var CUSTOMIZE_TEXTFIELD = 1;
     var customizationIdMessage = 'Customization #';
