@@ -1198,8 +1198,6 @@ ol.children {
     left: 0;
     width: 100%;
     text-align: center;*/
-
-
     background-position: 0 -64px;
     /*padding: 7px;*/
     font: bold 14px "Tahoma" !important;
@@ -3136,7 +3134,7 @@ div.column div.block ul.bullet li {
 }
 
 #cart_block h4 a {
-    font-size: 20px;
+    font-size: 36px;
     color: #3e1f1c;
 }
 
@@ -5573,7 +5571,8 @@ h4 {
 }
 
 .woocommerce #respond input#submit,
-.woocommerce a.button, .woocommerce a.added_to_cart,
+.woocommerce a.button,
+.woocommerce a.added_to_cart,
 .woocommerce button.button,
 .woocommerce input.button {
     /* height: 32px !important; */
@@ -5634,8 +5633,9 @@ h4 {
     /*color: #515151;*/
 }
 
-li.product a.add_to_cart_button.added, .product a.add_to_cart_button.added {
-    display: none; 
+li.product a.add_to_cart_button.added,
+.product a.add_to_cart_button.added {
+    display: none;
 }
 
 .woocommerce #respond input#submit.loading,
@@ -5645,6 +5645,7 @@ li.product a.add_to_cart_button.added, .product a.add_to_cart_button.added {
     opacity: .25;
     padding-right: 0px;
 }
+
 .woocommerce #respond input#submit.loading:after,
 .woocommerce a.button.loading:after,
 .woocommerce button.button.loading:after,
@@ -5661,6 +5662,7 @@ li.product a.add_to_cart_button.added, .product a.add_to_cart_button.added {
     -moz-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite
 }
+
 
 /*-------------------------- Single-product -----------------------*/
 
@@ -5753,6 +5755,7 @@ div.owl-item {
     float: left;
 }
 
+
 /*-----------------------Checkout -------------------------*/
 
 #add_payment_method table.cart td.actions .coupon .input-text,
@@ -5775,7 +5778,6 @@ div.owl-item {
     border: 0;*/
     border-radius: 0;
     -webkit-appearance: none;
-
     width: 11px;
     height: 13px;
     margin: 0 0 0 5px;
@@ -5783,4 +5785,18 @@ div.owl-item {
     font-size: 0;
     display: block;
     background: url(./images/icon/delete.gif) 0 bottom no-repeat;
+}
+
+
+/*-------------------drop cart-------------------*/
+
+#cart_block_total > span.woocommerce-Price-amount,
+#cart_block_shipping_cost > span.woocommerce-Price-amount {
+    padding: 0 !important;
+}
+
+#cart_block_total > span > span.woocommerce-Price-currencySymbol,
+#cart_block_shipping_cost > span > span.woocommerce-Price-currencySymbol {
+    float: none !important;
+    padding: 0 !important;
 }

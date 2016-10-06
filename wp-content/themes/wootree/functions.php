@@ -210,6 +210,15 @@ function wpt_create_widget( $name, $id, $description ) {
 wpt_create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
 wpt_create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section' );
 
+add_filter('woocommerce_currency_symbol', 'change_existing_currency_symbol', 10, 2);
+
+function change_existing_currency_symbol( $currency_symbol, $currency ) {
+     switch( $currency ) {
+          case 'VND': $currency_symbol = 'VNĐ'; break;
+     }
+     return $currency_symbol;
+}
+
 
 function wpt_theme_styles() {
 

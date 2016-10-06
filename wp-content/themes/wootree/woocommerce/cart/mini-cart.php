@@ -98,11 +98,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="cart-prices">
 		<div class="cart-prices-block">
 			<span>Shipping</span>
-			<span id="cart_block_shipping_cost" class="price ajax_cart_shipping_cost">0 VNĐ</span>
+			<span id="cart_block_shipping_cost" class="price ajax_cart_shipping_cost"><?php echo WC()->cart->get_total_ex_tax(); ?></span>
 		</div>
 		<div class="cart-prices-block">
 			<span><?php _e( 'Subtotal', 'woocommerce' ); ?>:</span>
-			<span id="cart_block_total" class="price ajax_block_cart_total"><?php echo WC()->cart->get_cart_subtotal(); ?></span>
+			<span id="cart_block_total" class="price ajax_block_cart_total total"><?php echo WC()->cart->get_cart_subtotal(); ?></span>
 		</div>
 	</div>
 
