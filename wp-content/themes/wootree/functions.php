@@ -81,6 +81,27 @@ if( !function_exists( 'unicase_display_mini_cart' ) ) {
 	}
 }
 
+if( !function_exists( 'choco_mini_cart_add_to_cart_fragment' ) ) {
+	/**
+	 * Mini Cart Ajax Update Fragments
+	 * @since   1.0.0
+	 * @return  array
+	 */
+	function choco_mini_cart_add_to_cart_fragment( $fragments ) {
+		ob_start();
+	
+		echo '<div class="mini-cart-items">';
+		woocommerce_mini_cart();
+		echo '</div>';
+		
+		$fragments['.unicase-mini-cart div.mini-cart-items'] = ob_get_clean();
+		$fragments['.unicase-mini-cart span.item-count'] = '<span class="item-count">' . WC()->cart->get_cart_contents_count() . '</span>';
+		$fragments['.unicase-mini-cart span.cart-count'] = '<span class="cart-count">' . WC()->cart->get_cart_contents_count() . esc_html__( ' Item(s)-', 'unicase' ) . WC()->cart->get_cart_subtotal() . '</span>';
+		
+		return $fragments;
+	}
+}
+
 function register_my_menus() {
   register_nav_menus(
     array(

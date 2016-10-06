@@ -3215,6 +3215,10 @@ div.column div.block ul.bullet li {
 
 #cart_block dl dt a {
     float: left;
+    width: 66px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 #cart_block dl dt span.price {
@@ -3322,6 +3326,7 @@ div.column div.block ul.bullet li {
 #cart_block p#cart-buttons {
     padding: 17px 10px 0 10px;
     overflow: hidden;
+    width: 150px;
 }
 
 #cart_block p#cart-buttons a.button_mini {
