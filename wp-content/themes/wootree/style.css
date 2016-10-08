@@ -1,3 +1,5 @@
+@import url('reset.css');
+/* Start off with a complete CSS reset */
 /*
 Theme Name: Treehouse Portfolio Theme
 Author: Treehouse
@@ -1510,7 +1512,7 @@ p#billing_postcode_field {
 
 /* —————————————————————————————— clear.css —————————————————————————————— */
 
-html,
+/*html,
 body,
 div,
 span,
@@ -1616,7 +1618,7 @@ span {
 img {
     vertical-align: top;
     text-decoration: none;
-}
+}*/
 
 
 /* —————————————————————————————— general styles —————————————————————————————— */
@@ -2496,6 +2498,8 @@ input[type=text],
 input[type=password],
 input[type=file],
 input[type=number],
+input[type=email],
+input[type=tel],
 textarea,
 select {
     background: #fff;
@@ -5461,7 +5465,7 @@ ul.shop_info li {
 }
 
 #tmfooterlinks p {
-    padding: 30px 0 0 0;
+    padding: 10px 0 0 0;
     clear: both;
     color: #6c6258;
     zoom: 1;
@@ -5475,7 +5479,10 @@ ul.shop_info li {
 #tmfooterlinks p a:hover {
     color: #6c6258;
 }
-
+#tmfooterlinks > div > ul > li > img {
+    float:left;
+    margin-right:3px;
+}
 
 /* —————————————————————————————— printable version —————————————————————————————— */
 
@@ -5663,6 +5670,11 @@ li.product a.add_to_cart_button.added,
     animation: spin 2s linear infinite
 }
 
+#center_column > ul > li > a.woocommerce-LoopProduct-link > span.price {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: MyWebFont2 !important;
+}
 
 /*-------------------------- Single-product -----------------------*/
 

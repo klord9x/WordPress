@@ -27,7 +27,7 @@
                                     </li>
                                     <!-- mini cart -->
                                     <li id="shopping_cart">
-                                        <a title="Your Shopping Cart">GIỎ HÀNG:</a>
+                                        <a title="<?php _e( 'View Cart', 'woocommerce' ); ?>" href="<?php echo esc_url( wc_get_cart_url() ); ?>">GIỎ HÀNG:</a>
                                         <span class="ajax_cart_quantity"></span>
                                         <span class="ajax_cart_product_txt_s"></span>
                                     </li>

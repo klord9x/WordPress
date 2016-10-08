@@ -47,6 +47,16 @@ add_filter( 'woocommerce_product_tabs', 'wcs_woo_remove_reviews_tab', 98 );
 // Mini cart
 add_filter('add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
 
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+     unset($fields['billing']['billing_postcode']);
+
+     return $fields;
+}
+
 function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	//global $woocommerce;
 
