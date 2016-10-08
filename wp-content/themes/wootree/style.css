@@ -5670,7 +5670,8 @@ li.product a.add_to_cart_button.added,
     animation: spin 2s linear infinite
 }
 
-#center_column > ul > li > a.woocommerce-LoopProduct-link > span.price {
+#center_column > ul > li > a.woocommerce-LoopProduct-link > span.price,
+#center_column > div > ul > li > a.woocommerce-LoopProduct-link > span.price {
     font-size: 1.5em;
     font-weight: normal;
     font-family: MyWebFont2 !important;
@@ -5797,6 +5798,21 @@ div.owl-item {
     font-size: 0;
     display: block;
     background: url(./images/icon/delete.gif) 0 bottom no-repeat;
+}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+    padding: 0 !important;
 }
 
 
