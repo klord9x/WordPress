@@ -1,0 +1,16 @@
+#setting-error-tgmpa{
+	display:block
+}
+#setting-error-tgmpa {
+  *zoom: 1;
+}
+
+#setting-error-tgmpa:before,
+#setting-error-tgmpa:after{
+  display: table;
+  content: "";
+}
+
+#setting-error-tgmpa:after{
+  clear: both;
+}
