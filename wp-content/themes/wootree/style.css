@@ -5815,7 +5815,13 @@ div.owl-item {
     padding: 0 !important;
 }
 
-
+td.review-order-thumbnail > img {
+    width: 50px;
+    box-shadow: none;
+}
+td.review-order-thumbnail {
+    max-width: 100px;
+}
 /*-------------------drop cart-------------------*/
 
 #cart_block_total > span.woocommerce-Price-amount,

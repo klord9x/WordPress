@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <table class="shop_table woocommerce-checkout-review-order-table">
 	<thead>
 		<tr>
+			<th class="product-thumbnail">&nbsp;</th>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
 		</tr>
@@ -37,6 +38,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 				if ( $_product && $_product->exists() && $cart_item['quantity'] > 0 && apply_filters( 'woocommerce_checkout_cart_item_visible', true, $cart_item, $cart_item_key ) ) {
 					?>
 					<tr class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
+						<!-- Add product thumbnail -->
+
+						<td class="review-order-thumbnail">
+							<?php
+								$thumbnail = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key );
+
+								if ( ! $product_permalink ) {
+									echo $thumbnail;
+								} else {
+									printf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $thumbnail );
+								}
+							?>
+						</td>
+
+						<!-- /Add product thumbnail -->
+
 						<td class="product-name">
 							<?php echo apply_filters( 'woocommerce_cart_item_name', $_product->get_title(), $cart_item, $cart_item_key ) . '&nbsp;'; ?>
 							<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', ' <strong class="product-quantity">' . sprintf( '&times; %s', $cart_item['quantity'] ) . '</strong>', $cart_item, $cart_item_key ); ?>
@@ -56,14 +73,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<tfoot>
 
 		<tr class="cart-subtotal">
+			
 			<th><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
 			<td><?php wc_cart_totals_subtotal_html(); ?></td>
+			<td>&nbsp;</td>
 		</tr>
 
 		<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
 			<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
 				<th><?php wc_cart_totals_coupon_label( $coupon ); ?></th>
-				<td><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
+				<td><?php wc_cart_totals_coupon_html( $coupon ); ?></td>				
 			</tr>
 		<?php endforeach; ?>
 
@@ -105,6 +124,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<tr class="order-total">
 			<th><?php _e( 'Total', 'woocommerce' ); ?></th>
 			<td><?php wc_cart_totals_order_total_html(); ?></td>
+			<td>&nbsp;</td>
 		</tr>
 
 		<?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
