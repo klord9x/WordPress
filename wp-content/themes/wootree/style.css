@@ -5768,6 +5768,11 @@ div.owl-item {
     float: left;
 }
 
+#cart_block_list > dl > dt > span.price {
+    font-size: inherit;
+    color: inherit;
+}
+
 
 /*-----------------------Checkout -------------------------*/
 
