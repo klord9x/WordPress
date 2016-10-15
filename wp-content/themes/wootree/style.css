@@ -5677,6 +5677,15 @@ li.product a.add_to_cart_button.added,
     font-family: MyWebFont2 !important;
 }
 
+a.woocommerce-LoopProduct-link > h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* line-height: 1; */
+    max-height: 32px;
+}
 /*-------------------------- Single-product -----------------------*/
 
 .woocommerce div.product div.images div.thumbnails {
