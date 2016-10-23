@@ -90,6 +90,12 @@
 						    </div> -->
 						    </div>
 	                    </div>
+	                    <!-- /colum text effect -->
+	                    <!-- Add img right -->
+	                    <div class="col-sm-3 col-md-3 col-lg-3">
+	                    	<img src="<?php echo get_template_directory_uri() . '/images/h-right.jpg'; ?>" alt="Thăng Long Sepre 24">
+	                    </div>
+	                    <!-- /Add img right -->
 
 	                    <!-- Script -->
 	                    <script type="text/javascript">
