@@ -1,0 +1,16 @@
+{
+	"name": "listify",
+	"description": "The last directory theme you will ever buy.",
+	"type": "wordpress-theme",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Astoundify",
+			"email": "contact@astoundify.com"
+		}
+	],
+	"scripts": {
+		"lint": "phpcs --extensions=php",
+		"lint:fix": "phpcbf --extensions=php"
+	}
+}
