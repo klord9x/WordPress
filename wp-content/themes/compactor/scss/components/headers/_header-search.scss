@@ -1,0 +1,48 @@
+.top-bar {
+  .header-search {
+    position: relative;
+    .wd-search-icon {
+      cursor: pointer;
+      path {
+        fill: var(--topbar-text);
+        margin-right: 15px;
+      }
+    }
+    .searchform {
+      position: absolute;
+      top: -14px;
+      width: 0;
+      right: -600px;
+      z-index: 999;
+      transform: scale(1);
+      transition: all ease-in-out 400ms;
+      background-color: transparent;
+      opacity: 0;
+      box-shadow: -19px -15px 18px 21px #fff;
+      .form-group {
+        input.form-control {
+          width: 100%;
+          max-width: unset;
+          margin: 0;
+        }
+        button {
+          display: none;
+        }
+      }
+      &.open{
+        width: 61vw;
+        right: 140px;
+        display: block;
+        opacity: 1;
+      }
+    }
+  }
+  .show-cart-btn {
+    path {
+      fill: var(--topbar-text);
+    }
+    &::after {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,146 @@
+// Elements
+//
+// Things to review before you write code here:
+// - Be sure to load after "foundation" import.
+// - Also, before adding styles be sure to modify variables in the
+//   "scss/_variables.scss" file. You may not need to write any code.
+
+// Headings
+//------------------------------------------
+// h1, h2, h3,
+// h4, h5, h6 {}
+
+// Anchors
+//-----------------------------------------------------------------------------
+a {
+  color: var(--primary-color);
+}
+a,
+.woocommerce ul.product_list_widget li a span {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 100%);
+  background-position: 0 calc(100% - 0.15em);
+  background-size: 0 20%;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  &:hover,
+  &:focus {
+    background-size: 100% 22%;
+  }
+}
+
+.site-navigation {
+  a {
+    background-position: 19px calc(100% - 0.6em);
+    background-size: 0 6px;
+    &:hover {
+      background-size: calc(100% - 15px) 6px;
+    }
+  }
+  > li:first-child > a {
+    background-position: 0 calc(100% - 0.6em);
+  }
+  .submenu a {
+    background-position: 31px calc(100% - 0.65em);
+    background-size: 0 5px;
+    &:hover {
+      background-size: calc(100% - 100px) 5px;
+    }
+  }
+}
+.wd-video-box,
+.logo-wrapper,
+.header-cta,
+.woocommerce ul.product_list_widget li {
+  a {
+    background-image: none;
+  }
+}
+
+a:active,
+a:hover {
+  background-size: 100% 20%;
+}
+
+.body a {
+  color: var(--headings-color);
+}
+.empty-menu,
+.single-post .wd-post__body,
+.body.field,
+.commentlist,
+.comment-respond,
+.woocommerce-grouped-product-list-item__label,
+.pagination-single {
+  a {
+    color: var(--headings-color);
+    background-size: 100% 7%;
+    &:hover {
+      background-size: 100% 25%;
+    }
+  }
+}
+.empty-menu a {
+  background-size: 100% 25%;
+  background-position: 0 calc(100% - 0.15em);
+  &:hover {
+    background-size: 100% 70%;
+  }
+}
+
+// Form Input
+//-----------------------------------------------------------------------------
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+// }
+
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+
+// }
+
+// select {}
+
+blockquote {
+  margin: 40px 0 40px 20px;
+  p {
+    .wd-post__content &,
+    & {
+    }
+  }
+}
+
+mark {
+  background-color: rgba(255, 255, 0, 0.2);
+  color: #000;
+}
+
+table thead th,
+table thead td,
+table tfoot th,
+table tfoot td {
+  padding: 0.5rem 0.625rem 0.25rem;
+}

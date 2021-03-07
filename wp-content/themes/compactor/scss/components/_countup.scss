@@ -1,0 +1,23 @@
+// *********************** COUNT-UP ***********************
+.wd-count-up {
+	text-align: center;
+	i {
+		color: var(--secondary-color);
+		font-size: 70px;
+	}
+	&__counter {
+		font-size: 40px;
+		line-height: 1em;
+		margin: .42em 0 0;
+		-webkit-text-fill-color: rgba(255, 255, 255, 0.02);
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: rgba(255, 255, 255, 0.75);
+		@include breakpoint(medium up) {
+			font-size: 60px;
+		}
+	}
+	&__title {
+		font-weight: 400;
+		font-size: 20px;
+	}
+}

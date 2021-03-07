@@ -1,0 +1,45 @@
+// Docs: http://foundation.zurb.com/docs/components/type.html
+// Before adding styles be sure to modify variables.
+p {
+  line-height: 1.714;
+  font-size: 16px;
+}
+.p-small {
+  line-height: 24px;
+  font-size: 16px;
+}
+
+
+
+blockquote cite {
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.quote {
+
+  p {
+    position: relative;
+    margin-bottom: 0;
+    color: var(--white-color);
+    font-size: 25px;
+    line-height: 30px;
+    &:before,
+    &:after {
+      position: absolute;
+      font-family: "Font Awesome 5 Free";
+      color: #fff;
+      font-size: 55px;
+    }
+    &:before {
+      content: "“";
+      top: -35px;
+      left: -20px;
+    }
+    &:after {
+      content: "”";
+      bottom: -35px;
+      right: -35px;
+    }
+  }
+}

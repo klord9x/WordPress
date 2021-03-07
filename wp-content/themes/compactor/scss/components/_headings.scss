@@ -1,0 +1,40 @@
+.wd-heading {
+  &.left {
+    text-align: left;
+  }
+  &.center {
+    text-align: center;
+  }
+  &.right {
+    text-align: right;
+  }
+  .first-title {
+    font-size: 22px;
+  }
+  &.text-right {
+    .title_a, .title_b, .title_c {
+      float: right;
+      width: 100%;
+    }
+  }
+  h2, h3, h4, h5, h6 {
+    span {
+      display: inline-block;
+      br {
+        line-height: 0;
+      }
+    }
+  }
+  h2, h3, h4, h5, h6 {
+    @include breakpoint(large up) {
+      margin: 17px 0;
+    }
+  }
+  span {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 100%);
+    background-position: 0 calc(100% - .15em);
+    background-size: 100% 20%;
+    transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  }
+}

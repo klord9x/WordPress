@@ -1,0 +1,122 @@
+#comments {
+  margin-top: 60px;
+  ul.commentlist, ol.commentlist {
+    list-style-type: none !important;
+    margin: 0;
+    li.comment {
+      margin-bottom: 30px;
+      list-style-type: none;
+      section.comment {
+        p {
+          color: #666;
+          font-size: 16px;
+          margin: 7px 0;
+        }
+        .comment-reply-link {
+          color: var(--white-color);
+          font-size: 14px;
+          transition: .3s;
+          color: var(--primary-color);
+        }
+      }
+    }
+    .author-meta {
+      cite {
+        display: block;
+        margin-bottom: 10px;
+        a {
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+
+    }
+  }
+}
+.wd-comment {
+  margin-bottom: 2em;
+  padding: 50px 50px 40px;
+  width: 100%;
+  display: table;
+  box-shadow: 0 8px 60px rgba(210, 210, 210, 0.2);
+  border: 1px solid rgba(232, 232, 232, 0.9);
+}
+.wd-comment-author-img {
+  display: table-cell;
+  vertical-align: top;
+  width: 120px;
+  img {
+    border-radius: 50%;
+  }
+}
+.pingback,
+.trackback {
+  .wd-comment-author-img {
+    display: none;
+  }
+}
+.wd-comment-text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.comments_title,
+.comment-reply-title {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 28px;
+  margin-top: 10px;
+  &:after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: var(--primary-color);
+    width: 70px;
+    height: 4px;
+    bottom: -9px;
+  }
+}
+.comment_name {
+  display: inline-block;
+  margin: 0 25px 0 0;
+}
+.comment_date {
+  font-size: 11px;
+}
+
+.comment-reply-link {
+  font-size: 14px;
+  transition: .3s;
+  color: var(--accent-color);
+}
+.comment-edit-link {
+  float: right;
+  font-size: 14px;
+}
+
+.comment ul.children {
+  margin-left: 4rem;
+}
+
+.comment-respond {
+  padding: 3em 0 4em;
+}
+
+.commentlist,
+.comment-respond {
+  a {
+    color: var(--headings-color);
+    background-size: 100% 7%;
+    &:hover {
+      background-size: 0% 10%;
+    }
+  }
+}
+
+#commentform #submit[type="submit"],
+.blog-posts form .small.radius {
+  border: none;
+  margin-top: 20px;
+  @extend .wd-btn, .btn-solid, .btn-color-1, .hover-color-3, .btn-medium;
+}

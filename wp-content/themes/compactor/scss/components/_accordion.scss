@@ -1,0 +1,106 @@
+//--------- accordion --------
+.wpb-js-composer {
+  /*----------------- style Flat -------------*/
+  .vc_tta-style-flat {
+    &.vc_tta-color-grey, &.vc_tta-color-blue, &.vc_tta-color-turquoise, &.vc_tta-color-pink, &.vc_tta-color-violet,
+    &.vc_tta-color-peacoc, &.vc_tta-color-chino, &.vc_tta-color-mulled-wine, &.vc_tta-color-vista-blue, &.vc_tta-color-black,
+    &.vc_tta-color-orange, &.vc_tta-color-sky, &.vc_tta-color-green, &.vc_tta-color-juicy-pink, &.vc_tta-sandy-brown,
+    &.vc_tta-color-purple, &.vc_tta-color-white {
+      .vc_tta-panels-container {
+        .vc_tta-panels div.vc_tta-panel.wd-tta-section {
+          &.vc_active {
+            .vc_tta-panel-heading {
+              box-shadow: none;
+              border-color: var(--text-color);
+              color: var(--primary-color);
+              background: rgba(221, 221, 221, 0.1);
+            }
+          }
+          //-------- heading ----------
+          .vc_tta-panel-heading {
+            box-shadow: none;
+            border-bottom: 2px solid var(--primary-color);
+            transition: all ease-in-out 400ms;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 2;
+            background: none;
+            a {
+              color: var(--headings-color);
+              font-weight: 600;
+              font-size: 18px;
+              padding: 18px 35px 16px;
+            }
+          }
+          &:hover {
+            .vc_tta-panel-heading {
+              a {
+                color: var(--primary-color);
+              }
+            }
+          }
+          //----------- content -------------
+          .vc_tta-panel-body {
+            background: none;
+            margin: -40px 0 20px;
+            padding: 40px 50px 0 50px;
+            box-shadow: none;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+  /*------------ style Classic ------------*/
+  .vc_tta-style-classic {
+    &.vc_tta-color-grey, &.vc_tta-color-blue, &.vc_tta-color-turquoise, &.vc_tta-color-pink, &.vc_tta-color-violet,
+    &.vc_tta-color-peacoc, &.vc_tta-color-chino, &.vc_tta-color-mulled-wine, &.vc_tta-color-vista-blue, &.vc_tta-color-black,
+    &.vc_tta-color-orange, &.vc_tta-color-sky, &.vc_tta-color-green, &.vc_tta-color-juicy-pink, &.vc_tta-sandy-brown,
+    &.vc_tta-color-purple, &.vc_tta-color-white {
+      .vc_tta-panels-container {
+        .vc_tta-panels div.vc_tta-panel.wd-tta-section {
+          .vc_tta-panel-heading {
+            background: transparent;
+            margin-bottom: 20px;
+            border: 1px solid var(--primary-color);
+            transition: all ease-in-out 400ms;
+            a {
+              color: var(--headings-color);
+              font-weight: 300;
+              padding: 12px 20px 16px;
+              i:before {
+                border-color: #666;
+              }
+              .vc_tta-title-text {
+                font-size: 18px;
+                font-weight: 500;
+              }
+            }
+          }
+          &.vc_active, &:hover {
+            .vc_tta-panel-heading {
+              background-color: var(--primary-color);
+              a {
+                color: var(--headings-color);
+              }
+              i:before,
+              i:after {
+                border-color: var(--primary-color);
+              }
+            }
+          }
+          //----------- content -------------
+          .vc_tta-panel-body {
+            background: var(--white-color);
+            border: none;
+            margin: 20px 0;
+            padding: 15px 35px 20px 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

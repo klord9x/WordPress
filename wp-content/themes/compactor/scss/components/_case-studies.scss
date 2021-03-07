@@ -1,0 +1,57 @@
+.wd-case-std {
+  padding: 10px;
+  .columns {
+    padding: 6px 7px;
+    position: relative;
+    img {
+      transition: .7s cubic-bezier(0.24, 0.71, 0.45, 0.71);
+      will-change: transform;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+      .wd-case-std__content {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+        padding-top: 200px;
+        .wd-case-std__title {
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+  &__thumbnail {
+    overflow: hidden;
+  }
+  &__content {
+    position: absolute;
+    bottom: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    padding-top: 100px;
+    width: calc(100% - 14px);
+    transition: .3s ease;
+    @media screen and (max-width: 460px){
+      padding-top: 30px;
+    }
+  }
+  &__title {
+    padding: 20px;
+    text-transform: none;
+    transition: .2s ease;
+    @media screen and (max-width: 460px){
+      padding: 10px;
+    }
+    a {
+      color: #fff;
+      background-image: linear-gradient(to right, #ff9800 0%, var(--primary-color) 100%);
+      background-size: 0 7px;
+      background-repeat: no-repeat;
+      background-position: 0 calc(100% - .12em);
+      transition: background-size 0.25s cubic-bezier(.785,.135,.15,.86) 0s;
+      &:hover {
+        background-size: 100% 7px;
+      }
+    }
+  }
+
+}

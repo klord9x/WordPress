@@ -1,0 +1,31 @@
+span.select2-container--default {
+  [type='search'].select2-search__field {
+    height: 38px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    &:focus {
+      box-shadow: none;
+      border-color: var(--primary-color);
+    }
+  }
+  .select2-selection--single {
+    & //,
+    //.select2-selection__rendered,
+    //.select2-selection__arrow
+     {
+      line-height: 55px;
+      height: 55px;
+    }
+    .select2-selection__rendered {
+      color: #444;
+    }
+  }
+}
+
+.home {
+  .select2-dropdown,
+  .daterangepicker {
+    border-radius: 0;
+    border: none;
+  }
+}

@@ -1,0 +1,136 @@
+//-------- Grid ---------
+.wd-clients-grid {
+  position: relative;
+  ul {
+    margin: 0;
+    @include breakpoint (medium up){
+      margin: 0 -30px;
+    }
+    padding: 30px 0;
+  }
+  li {
+    list-style: none;
+  }
+  &.grayscale .wd-clients-container {
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+  .wd-clients-container {
+    text-align: center;
+    filter: grayscale(0%);
+    img {
+      margin: 10px 0;
+      filter: saturate(0.5) brightness(200);
+      width: 100px;
+    }
+  }
+  .column-block {
+    @include breakpoint(large up) {
+      margin-top: .93rem;
+      margin-bottom: .93rem;
+    }
+  }
+}
+
+//---------- Carousel -------
+.wd-clients-carousel {
+
+
+  .slick-next, .slick-prev {
+    height: 100%;
+  }
+  .slick-prev::before, .slick-next::before {
+    color: #000;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 50px;
+    opacity: 1;
+  }
+  .slick-prev::before ,.slick-next::before {
+    content: '';
+    display: none;
+  }
+  &.grayscale .wd-clients-carousel-item {
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+  .wd-clients-carousel-item {
+    img {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  &--small {
+    .slick-list {
+      .slick-track {
+        display: flex;
+        align-content: center;
+        align-items: center;
+      }
+    }
+    .slick-arrow {
+      cursor: pointer;
+      z-index: 9999;
+    }
+    &.style_1 {
+      &.nav_arrow {
+        padding-right: 120px;
+      }
+      .slick-next {
+        right: 1.25rem;
+      }
+      .slick-prev {
+        right: 5.188rem;
+        left: auto;
+        &::after {
+          content: "";
+          display: block;
+          width: 0.125rem;
+          height: 1.438rem;
+          background: #000;
+          position: absolute;
+          right: -1.5rem;
+          color: #000;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+    &.style_2 {
+      &.nav_arrow {
+        padding: 0 35px;
+      }
+      .slick-list {
+        margin: 0;
+      }
+      .slick-arrow {
+        background: #f0f0f0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 0 16px 23px RGBA(174, 174, 174, 0.26);
+        opacity: 0;
+        transition: all ease-in-out 400ms;
+        svg{
+          height: 16px;
+        }
+      }
+      &:hover {
+        .slick-arrow {
+          opacity: 1;
+        }
+      }
+      .slick-next {
+        right: 20px;
+        padding-left: 4px;
+      }
+      .slick-prev {
+        left: 20px;
+        padding-right: 4px;
+      }
+    }
+  }
+}

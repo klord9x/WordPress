@@ -1,0 +1,467 @@
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+input.wpcf7-submit {
+  &:hover {
+    border-color: var(--headings-color);
+  }
+
+  &:focus {
+    border-color: var(--primary-color);
+  }
+}
+.searchform {
+  & > div {
+    position: relative;
+  }
+}
+
+.search-bar {
+  position: absolute;
+  top: 540px;
+  width: 100%;
+  @include breakpoint(small only) {
+    position: relative;
+    top: auto;
+  }
+}
+
+.brands_form {
+  &.multi_line {
+    max-width: 550px;
+    padding: 50px;
+    display: block;
+
+    form {
+      margin: 25px 0;
+
+      ul {
+        float: unset;
+
+        li {
+          width: 100%;
+          margin: 0 0 15px;
+          padding: 0;
+
+          &.start_date,
+          &.end_date {
+            width: 50%;
+            float: left;
+          }
+
+          &.start_date {
+            padding-right: 7px;
+          }
+
+          &.end_date {
+            padding-left: 7px;
+          }
+        }
+      }
+
+      .submit-button {
+        text-align: right;
+      }
+    }
+  }
+
+  margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.32);
+  padding: 20px 20px 20px 10px;
+  @include breakpoint(small only) {
+    padding: 20px;
+  }
+  display: flex;
+  align-items: center;
+
+  form {
+    width: 100%;
+
+    ul {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: left;
+      width: 100%;
+      float: left;
+
+      li {
+        position: relative;
+        margin: 5px 0;
+        padding: 0 10px;
+        width: 100%;
+        list-style: none;
+        height: 54px;
+        @include breakpoint(medium only) {
+          width: calc(100% / 2);
+          margin: 12px 0;
+        }
+        @include breakpoint(large up) {
+          width: calc(100% / 3 - 50px);
+          margin: 0;
+          &:last-child {
+            width: 150px;
+            padding-right: 0;
+          }
+        }
+
+        select,
+        input {
+          margin: 0;
+          border-radius: 0;
+          padding: 0 40px 0 15px;
+          border: 2px solid #f7f7f7;
+          height: 54px;
+        }
+
+        .select2 {
+          width: 100% !important;
+
+          .select2-selection {
+            border-radius: 0;
+            padding: 0 15px;
+            border: 2px solid #f7f7f7;
+            background: #fff;
+            height: 3.5875rem;
+            padding: 13px 20px 10px;
+
+            .select2-selection__arrow {
+              b {
+                border: none;
+
+                &::after {
+                  content: "\f107";
+                  font-family: "Font Awesome 5 Free";
+                  color: #928f8f;
+                  position: absolute;
+                  right: 15px;
+                  top: 18px;
+                  transform: translateY(-50%);
+                  font-size: 20px;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+
+        &.daterange::after {
+          content: "\f073";
+          font-family: "Font Awesome 5 Free";
+          color: #928f8f;
+          position: absolute;
+          right: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 17px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .submit-button {
+    display: inline-block;
+    width: 100%;
+
+    .button {
+      padding: 0;
+      background-color: var(--primary-color);
+      text-transform: uppercase;
+      color: #000;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      margin: 0;
+      width: 100%;
+      height: 54px;
+      border-radius: 0;
+      &:hover {
+        background-color: var(--wd-btn-color-3);
+        color: var(--white-color);
+      }
+    }
+  }
+}
+
+.has-negative-m {
+  &.wpb_row {
+    margin-top: -300px;
+    @include breakpoint(small only) {
+      margin-top: 0;
+    }
+  }
+}
+
+.get-touch-form {
+  background-color: var(--accent-color);
+  border-radius: 112px 112px 0 112px;
+  padding: 33px 88px 10px 125px;
+  overflow: hidden;
+  box-shadow: 0 28px 48px 0 rgba(0, 95, 178, 0.2);
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+  form {
+    .form-group {
+      width: 250px;
+      float: left;
+      position: relative;
+      margin-right: 125px;
+      padding-top: 10px;
+      margin-bottom: 36px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .form-control {
+        margin-bottom: 0;
+        border: 0;
+        background-color: transparent;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.78);
+        border-radius: 0;
+        padding: 0 0 5px;
+        color: rgba(255, 255, 255, 0.44);
+        font-size: 15px;
+
+        &:focus {
+          box-shadow: none;
+          border-bottom: 3px solid var(--accent-color);
+        }
+
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.44);
+        }
+      }
+
+      img {
+        position: absolute;
+        top: 25px;
+        left: -44px;
+      }
+    }
+
+    .main-btn {
+      float: right;
+      margin-bottom: 0;
+      background-color: var(--white-color);
+      padding: 20px 55px 19px;
+      border-radius: 112px 112px 112px 112px;
+      color: var(--primary-color);
+      font-size: 15px;
+      font-weight: 600;
+      transition: all 0.4s ease-in-out;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      will-change: background, border;
+      margin-top: 15px;
+
+      &:hover {
+        background: transparent;
+        color: var(--white-color);
+        border-color: var(--white-color);
+      }
+    }
+  }
+
+  @include breakpoint(small only) {
+    padding: 25px 25px 25px 60px;
+    border-radius: 15px 15px 0 15px;
+    form {
+      .form-group {
+        width: 100%;
+        padding-top: 20px;
+        margin-right: 0;
+
+        img {
+          top: 29px;
+        }
+
+        &:first-child {
+          padding-top: 0;
+
+          img {
+            top: 9px;
+          }
+        }
+      }
+
+      .main-btn {
+        float: none;
+        width: 100%;
+        padding: 10px 55px;
+        margin-top: 25px;
+      }
+    }
+  }
+
+  &.layout-2 {
+    padding-left: 100px;
+    padding-right: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 120px;
+    @include breakpoint(small only) {
+      padding-left: 60px;
+      position: relative;
+      bottom: 90px;
+    }
+  }
+}
+
+// contact form style 4
+.wpcf7 .wpcf7-form .contact_style_4 {
+  input,
+  textarea {
+    border-radius: 30px;
+    padding: 12px 26px 9px;
+    margin-top: 5px;
+  }
+
+  input[type="submit"] {
+    @extend .wd-btn, .btn-solid, .btn-color-2, .hover-color-1, .btn-big;
+    @include breakpoint(small only) {
+      padding: 15px 30px 10px;
+      font-size: 13px;
+      width: 100%;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+// post password
+.post-password-form input[type="submit"] {
+  @extend .wd-btn, .btn-solid, .btn-color-2, .hover-color-2, .btn-big;
+  border: none;
+  color: var(--white-color);
+}
+
+@include breakpoint(large up) {
+  .your-business-goes {
+    .vc_row.vc_column-gap-35 {
+      margin-left: 32.5px;
+      margin-right: -62.5px;
+    }
+  }
+}
+
+.wpcf7 .wpcf7-form .contact_style_5 {
+  input[type="email"] {
+    padding: 12px 26px 9px;
+    margin-top: 5px;
+    width: 58%;
+    float: left;
+    background: var(--white-color);
+    @include breakpoint(small only) {
+      width: 100%;
+    }
+  }
+
+  input[type="submit"] {
+    //@extend .wd-btn, .btn-solid, .btn-color-2, .hover-color-2, .btn-medium, .btn-round;
+    padding: 14px 38px 12px;
+    margin-left: 20px;
+    box-shadow: none !important;
+    @include breakpoint(small only) {
+      padding: 15px 30px 10px;
+      font-size: 13px;
+      width: 100%;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+/**
+ contact form standard style
+ **/
+
+.wpcf7 .wpcf7-form {
+  input,
+  textarea {
+    margin-top: 3px;
+  }
+
+  input[type="submit"] {
+    @extend .wd-btn, .btn-solid, .btn-color-1, .hover-color-2;
+    @include breakpoint(small only) {
+      padding: 15px 30px 10px;
+      font-size: 13px;
+    }
+  }
+}
+
+.wpcf7-form {
+    box-shadow: 0 0px 70px rgba(49, 49, 49, 0.1);
+    background: #fff;
+    padding: 20px;
+    @include breakpoint(large up) {
+      margin: 0 30px 0 30px;
+      padding: 40px 30px 28px;
+    }
+  .contact-form {
+
+    input,
+    textarea,
+    select {
+      margin-top: 5px;
+    }
+
+    input[type="submit"],
+    button {
+      letter-spacing: 1px;
+      padding: 17px 50px;
+      border: none;
+      font-size: 17px;
+    }
+
+    &.callback {
+      background: #000;
+      text-align: center;
+      padding: 26px 20px 5px;
+      margin: 0;
+
+      h4 {
+        color: #fff;
+        margin-bottom: 13px;
+      }
+
+      input,
+      textarea {
+        background: #fff;
+        border-radius: 3px;
+        height: 49px;
+        margin: 0 0 19px;
+      }
+
+      input[type="submit"],
+      button {
+        background-color: #c2d915;
+        padding: 9px 30px;
+        width: auto;
+        color: #000;
+        font-weight: 700;
+        height: auto;
+        letter-spacing: unset;
+        margin: 0;
+      }
+    }
+  }
+}

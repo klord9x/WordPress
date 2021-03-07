@@ -1,0 +1,375 @@
+/* Preloader */
+body {
+  overflow-x: hidden;
+  background: var(--body-background-color);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.alert-box {
+  p {
+    margin: 0;
+  }
+}
+
+br {
+  margin: 5px 0;
+}
+
+br {
+  line-height: 40px;
+  content: " ";
+}
+
+thead {
+  color: #fff;
+}
+blockquote {
+  margin: 0;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff; /* change if the mask should have another color then white */
+  z-index: 99; /* makes sure it stays on top */
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%; /* centers the loading animation horizontally one the screen */
+  top: 50%; /* centers the loading animation vertically one the screen */
+  background-image: url(../images/big-preloader.gif); /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px; /* is width and height divided by two */
+}
+
+#spaces-main {
+  position: relative;
+  overflow: hidden;
+}
+.bg-parallax-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  font-size: 260px;
+  opacity: .015;
+  font-weight: 900;
+  line-height: 1.9;
+  z-index: -1;
+  div {
+    width: 50%;
+    height: 200%;
+    overflow: hidden;
+    cursor: default;
+    transform: translateY(50px);
+  }
+}
+
+
+select {
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  html body.admin-menu {
+    margin-top: 80px !important;
+  }
+}
+
+@include breakpoint(large up) {
+  .mi-row,
+  .mi-row-right,
+  .min-row-child > div {
+    max-width: $grid-row-width/2;
+    float: right;
+    padding: 0 30px;
+  }
+  .mi-row-right {
+    float: left !important;
+  }
+  .vc_col-sm-1,
+  .vc_col-lg-1 {
+    &.mi-column {
+      width: 4%;
+    }
+  }
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.wp-caption-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 9px 0;
+}
+
+.gallery-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  max-height: 50%;
+  opacity: 0;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.bypostauthor > article .fn:before,
+.comment-edit-link:before,
+.comment-reply-link:before,
+.comment-reply-login:before,
+.comment-reply-title small a:before,
+.contributor-posts-link:before,
+.menu-toggle:before,
+.search-toggle:before,
+.slider-direction-nav a:before,
+.widget_twentyfourteen_ephemera .widget-title:before {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font: normal 16px/1 Genericons;
+  text-decoration: inherit;
+  vertical-align: text-bottom;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.alignleft {
+  float: left;
+}
+
+h2.heading {
+  color: inherit;
+}
+
+.page-links {
+  text-align: center;
+  a {
+    padding: 10px 20px;
+    border-radius: 50%;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+#wp-calendar {
+  thead {
+    th {
+      text-align: center;
+    }
+  }
+  tbody {
+    td {
+      text-align: center;
+      color: #000;
+    }
+  }
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 10px 5px;
+  text-align: center;
+  clear: both;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 20px 0 10px;
+  color: #000;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+.clearfix {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  @include breakpoint(small only) {
+    display: block;
+  }
+}
+
+.single_image-bg {
+  transform: translateX(25px);
+  &:after {
+    content: " ";
+    background: #FDB900;
+    position: absolute;
+    height: calc(100% - 120px);
+    width: 92%;
+    top: 120px;
+    right: 62px;
+    z-index: -1;
+  }
+}
+
+.wd_row_shadow {
+  box-shadow: 0px 14px 41px #00000015;
+  .text-icon__title {
+    font-size: 32px;
+  }
+}
+
+.single_image_row {
+  .wpb_content_element {
+    margin-bottom: 0;
+  }
+}
+
+
+main.l-main.row {
+  margin-bottom: 20px;
+  @include breakpoint(medium up) {
+    margin-bottom: 30px;
+  }
+}
+
+/**
+    To be added to block in row to remove the 15px padding
+ */
+.wd-outer-space {
+  margin: 0 -15px;
+}
+
+.wd_wrapper {
+  background: none repeat scroll 0 0 #fff;
+  margin: 0 auto;
+  max-width: $row-width + 5;
+  position: relative;
+}

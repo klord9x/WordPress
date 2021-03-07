@@ -1,0 +1,32 @@
+.not_found {
+  text-align: center;
+  width: 100%;
+  margin: 150px 0;
+  @include breakpoint(small only) {
+    padding: 0 35px;
+  }
+  &__title {
+
+  }
+  &__message {
+
+  }
+  &__404 {
+    font-size: 200px;
+    color: var(--primary-color);
+    @include breakpoint(small only) {
+      font-size: 140px;
+    }
+  }
+  &__search {
+
+    .searchform {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+  }
+
+
+
+}

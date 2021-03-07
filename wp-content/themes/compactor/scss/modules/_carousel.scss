@@ -1,0 +1,30 @@
+.blog {
+  .owl-carousel {
+    list-style: none;
+    position: relative;
+    .owl-controls {
+      position: absolute;
+      top:45%;
+      width: 100%;
+    }
+    .owl-prev {
+      float: left;
+      background: rgba(238, 238, 238,0.6);
+      padding: 20px;
+      margin-left:1px;
+    }
+    .owl-next {
+      float: right;
+      background: rgba(238, 238, 238,0.6);
+      padding: 20px;
+
+    }
+  }
+}
+
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+}

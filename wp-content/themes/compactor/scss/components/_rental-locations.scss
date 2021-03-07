@@ -1,0 +1,35 @@
+.rental_locations {
+  .locations {
+    list-style: none;
+    .location {
+      margin-bottom: 35px;
+      padding: 0;
+      border-bottom: 1px solid #eee;
+      margin: 15px 35px 15px 15px;
+      max-width: calc(33.33333% - 50px);
+      position: relative;
+      a {
+        font-weight: 600;
+        color: var(--header-color);
+        display: inline-block;
+        border-bottom: 2px solid var(--primary-color);
+        padding-top: 15px;
+        transition: all ease-in-out 400ms;
+        &:hover {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        span{
+          display: inline-block;
+          margin-left: 10px;
+          float: right;
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+.location_pagination{
+  margin-top: 32px;
+}

@@ -1,0 +1,53 @@
+.wd-banner{
+  &__text{
+    padding: 1em 25px 1em 0;
+    h3{
+      font-size: 1.1rem;
+      color: var(--headings-color);
+      text-transform: capitalize;
+    }
+  }
+  &--style_2{
+    .wd-banner__text{
+      padding: 1em 25px;
+      background-color: #f0f2f4;
+      h3{
+        margin: 0;
+      }
+    }
+  }
+  &--style_3{
+    position: relative;
+    overflow: hidden;
+    .wd-banner__text{
+      position: absolute;
+      top: 50%;
+      left: -50%;
+      transform: translate(-50%, -50%);
+      padding: 1em 25px;
+      transition: all ease-in-out 400ms;
+      z-index: 9;
+      h3{
+        color: #fff
+      }
+    }
+    &::after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: RGBA(253, 185, 0, 0.35);
+      transition: all ease-in-out 250ms;
+    }
+    &:hover{
+      .wd-banner__text{
+        left: 50%;
+      }
+      &::after{
+        left: 0;
+      }
+    }
+  }
+}

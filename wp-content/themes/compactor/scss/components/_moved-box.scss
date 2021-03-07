@@ -1,0 +1,107 @@
+.moved-box {
+  &--left > .wpb_column:first-child,
+  &--right > .wpb_column:last-child {
+    background-color: white;
+    z-index: 4;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+    @include breakpoint(large up) {
+      width: 54.333333%;
+    }
+  }
+  &--left > .wpb_column:last-child,
+  &--right > .wpb_column:first-child {
+    @include breakpoint(large up) {
+      width: 44.666667%;
+    }
+  }
+
+  &--left > .wpb_column:first-child,
+  &--right > .wpb_column:last-child {
+    > .vc_column-inner {
+      padding: 30px 30px 0px;
+      @include breakpoint(medium only) {
+        padding: 45px 45px 0px;
+      }
+      @include breakpoint(large up) {
+        padding: 70px 75px 14px;
+      }
+    }
+  }
+  .vc_single_image-wrapper {
+    img {
+      position: relative;
+      z-index: 2;
+      @include breakpoint(medium up) {
+        transform: translateY(-40px) translateX(-60px);
+      }
+      @include breakpoint(large up) {
+        transform: translateY(-40px) translateX(-60px);
+      }
+    }
+    &:after {
+      content: "";
+      display: block;
+      background: var(--primary-color);
+      transform: translateX(-30px);
+      height: calc(100% - 40px);
+      width: 190px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+    }
+  }
+  &--right {
+    .vc_single_image-wrapper {
+      img {
+        @include breakpoint(medium up) {
+          transform: translateY(-40px) translateX(60px);
+        }
+        @include breakpoint(large up) {
+          transform: translateY(-40px) translateX(80px);
+        }
+      }
+      &:after {
+        transform: translateX(30px);
+        height: calc(100% - 40px);
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+  &__top {
+    overflow: visible !important;
+    .vc_single_image-wrapper {
+      position: absolute;
+      top: -144px;
+    }
+  }
+}
+
+.moved-box--top{
+  .vc_single_image-wrapper img {
+    transform: unset;
+    position: relative;
+    z-index: 9;
+  }
+  .vc_single_image-wrapper::after {
+    content: "";
+    display: block;
+    background: #030C29;
+    transform: translateX(-30px);
+    width: calc(100% - 40px);
+    position: absolute;
+    top: unset;
+    left: 0;
+    right: unset;
+    z-index: 1;
+    height: 190px;
+    bottom: 0;
+  }
+}
+
+.image-bottom {
+  position: absolute;
+  bottom: -25px;
+  left: -20px;
+}

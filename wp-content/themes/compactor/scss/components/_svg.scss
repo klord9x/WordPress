@@ -1,0 +1,31 @@
+.wd-svg > svg {
+  max-width: 100%;
+}
+
+svg .moveUpDown {
+ animation-duration: 2s;
+ animation-name: moveUpDown;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+svg .anim-d-1 {
+  animation-duration: 1s;
+}
+svg .anim-d-15 {
+  animation-duration: 1.5s;
+}
+svg .anim-d-18 {
+  animation-duration: 1.8s;
+}
+svg .anim-d-2 {
+  animation-duration: 2s;
+}
+
+@keyframes moveUpDown{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(0) translateY(25px);
+  }
+}

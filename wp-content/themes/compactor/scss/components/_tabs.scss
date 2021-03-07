@@ -1,0 +1,126 @@
+//------------- Tabs -----------
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panels-container {
+  .vc_tta-panels {
+    border: none;
+    background: transparent;
+  }
+}
+
+.wpb-js-composer .vc_tta-tabs .vc_tta-tabs-list {
+  overflow: visible;
+  padding: 20px 15px 15px 20px;
+}
+
+.wpb-js-composer {
+  /*----------------- style Flat -------------*/
+  div.vc_tta-style-modern,
+  div.vc_tta-style-flat, div.vc_tta-style-outline {
+    &.vc_tta-color-grey, &.vc_tta-color-blue, &.vc_tta-color-turquoise, .vc_tta-color-pink, &.vc_tta-color-violet,
+    &.vc_tta-color-peacoc, &.vc_tta-color-chino, &.vc_tta-color-mulled-wine, &.vc_tta-color-vista-blue, &.vc_tta-color-black,
+    &.vc_tta-color-orange, &.vc_tta-color-sky, &.vc_tta-color-green, &.vc_tta-color-juicy-pink, &.vc_tta-sandy-brown,
+    &.vc_tta-color-purple, &.vc_tta-color-white {
+
+      //------ heading --------
+      .vc_tta-tabs-container {
+        overflow: visible;
+
+        .vc_tta-tabs-list {
+          overflow: visible;
+
+          .vc_tta-tab {
+            box-shadow: 0 4px 30px rgba(28, 28, 28, 0.07);
+            margin: 20px 10px;
+
+            & > a {
+              background: none;
+              border: none;
+              font-size: 16px;
+              font-weight: 500;
+              transition: all ease-in-out 400ms;
+
+              &:hover {
+                color: var(--primary-color);
+              }
+            }
+          }
+
+          .vc_tta-tab.vc_active {
+            & > a {
+              color: var(--primary-color);
+            }
+          }
+        }
+      }
+
+
+      //----------- content -------------
+      .vc_tta-panels-container {
+        .vc_tta-panels {
+          background-color: unset;
+          border: none;
+
+          .vc_tta-panel-body {
+            background-color: var(--white-color);
+            padding: 0 30px 30px;
+            margin: 0 10px;
+            box-shadow: 0 4px 30px rgba(28, 28, 28, 0.07);
+          }
+        }
+      }
+
+    }
+
+  }
+
+
+  /*------------ style Classic ------------*/
+  div.vc_tta-style-classic.vc_tta-tabs {
+    &.vc_tta-color-grey, &.vc_tta-color-blue, &.vc_tta-color-turquoise, .vc_tta-color-pink, &.vc_tta-color-violet,
+    &.vc_tta-color-peacoc, &.vc_tta-color-chino, &.vc_tta-color-mulled-wine, &.vc_tta-color-vista-blue, &.vc_tta-color-black,
+    &.vc_tta-color-orange, &.vc_tta-color-sky, &.vc_tta-color-green, &.vc_tta-color-juicy-pink, &.vc_tta-sandy-brown,
+    &.vc_tta-color-purple, &.vc_tta-color-white {
+
+      //------ heading --------
+      .vc_tta-tabs-container {
+        .vc_tta-tab {
+          cursor: pointer;
+          margin: 0 15px;
+          & > a {
+            border: none;
+            background: none;
+            padding: 15px 0;
+          }
+          &:hover {
+            & > a {
+              color: var(--primary-color);
+            }
+          }
+        }
+
+        .vc_tta-tab.vc_active {
+          border-bottom: 1px solid var(--primary-color);
+          & > a {
+            color: var(--primary-color);
+          }
+        }
+      }
+
+      //----------- content -------------
+      div.vc_tta-panels-container {
+        .vc_tta-panels {
+          background-color: unset;
+          border: none;
+          .vc_tta-panel-body {
+            background: var(--white-color);
+            border: none;
+            margin: 0 !important;
+            padding: 0 15px !important;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
