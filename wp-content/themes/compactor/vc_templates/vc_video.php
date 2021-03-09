@@ -85,12 +85,12 @@ if (strcmp($video_module_mode, 'full_screen') === 0) {
 						  <div class="flex-video widescreen">';
 	if ($video_source == 'youtube') {
 		$data_setup = "data-setup={\"techOrder\":[\"youtube\"],\"sources\":[{\"type\":\"video/youtube\",\"src\":\"https://www.youtube.com/watch?v=$video_id\"}],\"youtube\":{\"customVars\":{\"wmode\":\"transparent\"}}}";
-		/* $embed .= '<video 
+		 $embed .= '<video 
 			id="play" class="video-js vjs-default-skin" 
 			controls=""  
 			width="' . $video_w . '" height="' . $video_h . '"
 			'.$data_setup.'>
-			</video>'; */
+			</video>';
 	} else {
 		$embed .= '<iframe width="1280" height="720" src="http://player.vimeo.com/video/' . esc_attr($video_id) . '?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen></iframe>';
 	}
