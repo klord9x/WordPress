@@ -8,7 +8,7 @@
                 $thumb = wp_get_attachment_image_src( $img_id, 'compactor_portfolio');
                 $srcset = wp_get_attachment_image_srcset($img_id);
                 $src = $thumb['0'];
-                $placeholder = "//placehold.it/408x278/eee/222/&text=+";
+                $placeholder = "//via.placeholder.com/408x278/eee/222/&text=+";
 
                 $default_attr = array(
 	                'src' => $placeholder,

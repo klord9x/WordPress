@@ -109,7 +109,7 @@ if (!function_exists('wd_icon_text')) {
 							$image = preg_replace( '/[^\d]/', '', $image );
 							$img_url = wp_get_attachment_image_url($image, 'full');
 							$srcset = wp_get_attachment_image_srcset($image);
-							$placeholder = "//placehold.it/408x278/eee/222/&text=+";
+							$placeholder = "//via.placeholder.com/408x278/eee/222/&text=+";
 							if (!empty($image_width)) {
 								$img_src = compactor_image_resize($img_url, $image_width);
 							}else{

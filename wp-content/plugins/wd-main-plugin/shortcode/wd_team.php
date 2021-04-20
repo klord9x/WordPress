@@ -31,7 +31,7 @@ if (!function_exists('wd_team_scode')) {
 							$thumb = wp_get_attachment_image_src($img_id, 'compactor_team_style1');
 							$srcset = wp_get_attachment_image_srcset($img_id);
 							$src = $thumb['0'];
-							$placeholder = "//placehold.it/314x314/eee/222/&text=+";
+							$placeholder = "//via.placeholder.com/314x314/eee/222/&text=+";
 
 							$default_attr = array(
 								'src' => $placeholder,
